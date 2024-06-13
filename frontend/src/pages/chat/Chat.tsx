@@ -679,8 +679,12 @@ const Chat = () => {
   }, [showLoadingMessage, processMessages])
 
   const onShowCitation = (citation: Citation) => {
-    setActiveCitation(citation)
-    setIsCitationPanelOpen(true)
+    // TODO: Restrict to known url only like DocPortal..
+    if (citation.url && !citation.url.includes('blob.core')) {
+        window.open(citation.url, '_blank')
+    }
+    // setActiveCitation(citation)
+    // setIsCitationPanelOpen(true)
   }
 
   const onShowExecResult = () => {
@@ -947,7 +951,7 @@ const Chat = () => {
                     : activeCitation.title ?? ''
                 }
                 onClick={() => onViewSource(activeCitation)}>
-                {activeCitation.title}
+                {activeCitation.url}
               </h5>
               <div tabIndex={0}>
                 <ReactMarkdown

@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>Rakuten Payment Platform Documentation Portal Blog</title>
+        <link>https://docs.payment.global.rakuten.com/release-note-blog/</link>
+        <description>Rakuten Payment Platform Documentation Portal Blog</description>
+        <lastBuildDate>Wed, 17 Jan 2024 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
+        <item>
+            <title><![CDATA[Seller Portal - v1.11.2]]></title>
+            <link>https://docs.payment.global.rakuten.com/release-note-blog/2024/01/17/</link>
+            <guid>https://docs.payment.global.rakuten.com/release-note-blog/2024/01/17/</guid>
+            <pubDate>Wed, 17 Jan 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[This is Seller Portal changelog.]]></description>
+            <content:encoded><![CDATA[<div class="productVersion"><p>Seller Portal - v1.11.2</p></div>
+<br>
+<ul>
+<li>Adds <code>card token</code> to CSV export to help clients identify card issuers</li>
+</ul>]]></content:encoded>
+            <category>Seller Portal</category>
+        </item>
+        <item>
+            <title><![CDATA[Seller Portal - v1.11.1]]></title>
+            <link>https://docs.payment.global.rakuten.com/release-note-blog/2023/11/07/</link>
+            <guid>https://docs.payment.global.rakuten.com/release-note-blog/2023/11/07/</guid>
+            <pubDate>Tue, 07 Nov 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[This is Seller Portal changelog.]]></description>
+            <content:encoded><![CDATA[<div class="productVersion"><p>Seller Portal - v1.11.1</p></div>
+<br>
+<ul>
+<li>Improve payment status visibility</li>
+<li>Fix payment details history issue from <a href="https://jira.rakuten-it.com/jira/browse/PAYINQ-7178" target="_blank" rel="noopener noreferrer">https://jira.rakuten-it.com/jira/browse/PAYINQ-7178</a></li>
+</ul>]]></content:encoded>
+            <category>Seller Portal</category>
+        </item>
+        <item>
+            <title><![CDATA[Seller Portal - v1.11.0]]></title>
+            <link>https://docs.payment.global.rakuten.com/release-note-blog/2023/10/18/</link>
+            <guid>https://docs.payment.global.rakuten.com/release-note-blog/2023/10/18/</guid>
+            <pubDate>Wed, 18 Oct 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[This is Seller Portal changelog.]]></description>
+            <content:encoded><![CDATA[<div class="productVersion"><p>Seller Portal - v1.11.0</p></div>
+<br>
+<ul>
+<li>Enable to show graphical transaction data for each payment method on Dashboard<!-- -->
+<ul>
+<li>Users can choose payment methods in the chart.</li>
+</ul>
+</li>
+<li>Some UI improvements</li>
+</ul>]]></content:encoded>
+            <category>Seller Portal</category>
+        </item>
+        <item>
+            <title><![CDATA[Seller Portal - v1.10.4]]></title>
+            <link>https://docs.payment.global.rakuten.com/release-note-blog/2023/10/11/</link>
+            <guid>https://docs.payment.global.rakuten.com/release-note-blog/2023/10/11/</guid>
+            <pubDate>Wed, 11 Oct 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[This is Seller Portal changelog.]]></description>
+            <content:encoded><![CDATA[<div class="productVersion"><p>Seller Portal - v1.10.4</p></div>
+<br>
+<ul>
+<li>On DEV/STG, show environment labels also on small screens</li>
+<li>Minor UI fixes</li>
+<li>Preparation for release of dashboard Phase II</li>
+</ul>]]></content:encoded>
+            <category>Seller Portal</category>
+        </item>
+        <item>
+            <title><![CDATA[Remove agency code we don't provide.]]></title>
+            <link>https://docs.payment.global.rakuten.com/release-note-blog/2023/08/24/</link>
+            <guid>https://docs.payment.global.rakuten.com/release-note-blog/2023/08/24/</guid>
+            <pubDate>Thu, 24 Aug 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[This is PGW changelog.]]></description>
+            <content:encoded><![CDATA[<div class="productVersion"><p>PGW - v1.5</p></div>
+<h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="api-overview">API Overview<a href="https://docs.payment.global.rakuten.com/release-note-blog/2023/08/24/#api-overview" class="hash-link" aria-label="Direct link to API Overview" title="Direct link to API Overview">​</a></h3>
+<ul>
+<li>Remove agency code we don't provide.<!-- -->
+<ul>
+<li>RakutenBank</li>
+</ul>
+</li>
+</ul>]]></content:encoded>
+            <category>PGW</category>
+        </item>
+        <item>
+            <title><![CDATA[Add consumerTransactionLawUrl to Payment/V1]]></title>
+            <link>https://docs.payment.global.rakuten.com/release-note-blog/2023/08/22/</link>
+            <guid>https://docs.payment.global.rakuten.com/release-note-blog/2023/08/22/</guid>
+            <pubDate>Tue, 22 Aug 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[This is Payment Step changelog.]]></description>
+            <content:encoded><![CDATA[<h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="paymentv1">Payment/V1<a href="https://docs.payment.global.rakuten.com/release-note-blog/2023/08/22/#paymentv1" class="hash-link" aria-label="Direct link to Payment/V1" title="Direct link to Payment/V1">​</a></h3>
+<ul>
+<li>Add <code>consumerTransactionLawUrl</code> to Payment/V1.</li>
+<li>Add some sentence in descrption what is lited bellow.<!-- -->
+<ul>
+<li><code>firstName</code></li>
+<li><code>lastName</code></li>
+<li><code>firstNameKana</code></li>
+<li><code>lastNameKana</code></li>
+<li><code>building</code></li>
+</ul>
+</li>
+<li>Change minimum and maximum size in descrption what is lited bellow.<!-- -->
+<ul>
+<li><code>orderDateJst</code></li>
+<li><code>shippingDateJst</code></li>
+<li><code>invoiceDeliveryType</code></li>
+<li><code>agencycode</code></li>
+<li><code>maxAmount</code></li>
+<li><code>fee</code></li>
+</ul>
+</li>
+</ul>]]></content:encoded>
+            <category>Payment Step</category>
+        </item>
+        <item>
+            <title><![CDATA[Add /Payment/V1/Capture to Veritrans Japan]]></title>
+            <link>https://docs.payment.global.rakuten.com/release-note-blog/2023/08/09/</link>
+            <guid>https://docs.payment.global.rakuten.com/release-note-blog/2023/08/09/</guid>
+            <pubDate>Wed, 09 Aug 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[This is PGW changelog.]]></description>
+            <content:encoded><![CDATA[<h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="veritrans-japan">Veritrans Japan<a href="https://docs.payment.global.rakuten.com/release-note-blog/2023/08/09/#veritrans-japan" class="hash-link" aria-label="Direct link to Veritrans Japan" title="Direct link to Veritrans Japan">​</a></h3>
+<ul>
+<li>Add <code>/Payment/V1/Capture</code> , <code>/3DSecureEnrollment/V2/Check</code> in Available APIs.</li>
+<li>Add <code>Capture API</code> table.</li>
+<li>Add "ErrorCode" table.</li>
+<li>Change <code>mpiAuthorizeResponseDto</code> to <code>veritransJapan3DSecureEnrollmentCheckCallBackData</code> and <code>vResultCode</code> to <code>vresultCode</code> in 3DS2 Request and Response sample - After Redirect Response.</li>
+</ul>]]></content:encoded>
+            <category>PGW</category>
+        </item>
+        <item>
+            <title><![CDATA[Change description of Provides the Payment Step to Shopper]]></title>
+            <link>https://docs.payment.global.rakuten.com/release-note-blog/2023/08/01/</link>
+            <guid>https://docs.payment.global.rakuten.com/release-note-blog/2023/08/01/</guid>
+            <pubDate>Tue, 01 Aug 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[This is Payment Step changelog.]]></description>
+            <content:encoded><![CDATA[<h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="specification">Specification<a href="https://docs.payment.global.rakuten.com/release-note-blog/2023/08/01/#specification" class="hash-link" aria-label="Direct link to Specification" title="Direct link to Specification">​</a></h3>
+<ul>
+<li>Change description of <code>Provides the Payment Step to Shopper</code>.</li>
+</ul>]]></content:encoded>
+            <category>Payment Step</category>
+        </item>
+        <item>
+            <title><![CDATA[Change description of pending]]></title>
+            <link>https://docs.payment.global.rakuten.com/release-note-blog/2023/07/28/</link>
+            <guid>https://docs.payment.global.rakuten.com/release-note-blog/2023/07/28/</guid>
+            <pubDate>Fri, 28 Jul 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[This is PGW changelog.]]></description>
+            <content:encoded><![CDATA[<h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="result-types-of-api-calls">Result Types of API calls<a href="https://docs.payment.global.rakuten.com/release-note-blog/2023/07/28/#result-types-of-api-calls" class="hash-link" aria-label="Direct link to Result Types of API calls" title="Direct link to Result Types of API calls">​</a></h3>
+<ul>
+<li>Change description of pending.</li>
+</ul>]]></content:encoded>
+            <category>PGW</category>
+        </item>
+        <item>
+            <title><![CDATA[Seller Portal - v1.10.3]]></title>
+            <link>https://docs.payment.global.rakuten.com/release-note-blog/2023/07/11/</link>
+            <guid>https://docs.payment.global.rakuten.com/release-note-blog/2023/07/11/</guid>
+            <pubDate>Tue, 11 Jul 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[This is Seller Portal changelog.]]></description>
+            <content:encoded><![CDATA[<div class="productVersion"><p>Seller Portal - v1.10.3</p></div>
+<br>
+<ul>
+<li>Add rakutenCouponCode field to payment CSV export.</li>
+<li>Fix Payment Details display of Rakuten Pay Online directcapture and some CTCB transactions.</li>
+<li>Payment CSV download: Start download within 10 seconds or send via email otherwise.</li>
+<li>Avoid Gateway Timeout errors on payment searches.</li>
+</ul>]]></content:encoded>
+            <category>Seller Portal</category>
+        </item>
+        <item>
+            <title><![CDATA[Add RakutenCard]]></title>
+            <link>https://docs.payment.global.rakuten.com/release-note-blog/2023/07/10/</link>
+            <guid>https://docs.payment.global.rakuten.com/release-note-blog/2023/07/10/</guid>
+            <pubDate>Mon, 10 Jul 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[This is PGW changelog.]]></description>
+            <content:encoded><![CDATA[<h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="rakutencard">RakutenCard<a href="https://docs.payment.global.rakuten.com/release-note-blog/2023/07/10/#rakutencard" class="hash-link" aria-label="Direct link to RakutenCard" title="Direct link to RakutenCard">​</a></h3>
+<ul>
+<li>Add <code>custom</code> , <code>japanBillingAddress</code> , <code>easyId</code> and <code>mobilePhoneNumber</code> in Card Verification &amp; Card Holder Authentication, Request sample and Response Sample.</li>
+<li>Add comment of Immediate Payment.</li>
+</ul>]]></content:encoded>
+            <category>PGW</category>
+        </item>
+        <item>
+            <title><![CDATA[Change Subscription/V1]]></title>
+            <link>https://docs.payment.global.rakuten.com/release-note-blog/2023/06/28/</link>
+            <guid>https://docs.payment.global.rakuten.com/release-note-blog/2023/06/28/</guid>
+            <pubDate>Wed, 28 Jun 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[This is Payment Step changelog.]]></description>
+            <content:encoded><![CDATA[<h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="subscriptionv1">Subscription/V1<a href="https://docs.payment.global.rakuten.com/release-note-blog/2023/06/28/#subscriptionv1" class="hash-link" aria-label="Direct link to Subscription/V1" title="Direct link to Subscription/V1">​</a></h3>
+<ul>
+<li>Add <code>consumerTransactionLawUrl</code> in Request Data.</li>
+</ul>]]></content:encoded>
+            <category>Payment Step</category>
+        </item>
+        <item>
+            <title><![CDATA[Change ShortUrl/V1/Create description]]></title>
+            <link>https://docs.payment.global.rakuten.com/release-note-blog/2023/06/14/</link>
+            <guid>https://docs.payment.global.rakuten.com/release-note-blog/2023/06/14/</guid>
+            <pubDate>Wed, 14 Jun 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[This is Payment Step changelog.]]></description>
+            <content:encoded><![CDATA[<h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="shorturlv1create-description">ShortUrl/V1/Create description<a href="https://docs.payment.global.rakuten.com/release-note-blog/2023/06/14/#shorturlv1create-description" class="hash-link" aria-label="Direct link to ShortUrl/V1/Create description" title="Direct link to ShortUrl/V1/Create description">​</a></h3>
+<ul>
+<li>Change oneTimeId description in requestdata.</li>
+<li>Add <code>Some business cases</code> request description in requestdata.</li>
+</ul>
+<h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="implement-with-shorturl-api">Implement with ShortUrl API<a href="https://docs.payment.global.rakuten.com/release-note-blog/2023/06/14/#implement-with-shorturl-api" class="hash-link" aria-label="Direct link to Implement with ShortUrl API" title="Direct link to Implement with ShortUrl API">​</a></h3>]]></content:encoded>
+            <category>Payment Step</category>
+        </item>
+        <item>
+            <title><![CDATA[Add Prameters]]></title>
+            <link>https://docs.payment.global.rakuten.com/release-note-blog/2023/06/12/add parameter/</link>
+            <guid>https://docs.payment.global.rakuten.com/release-note-blog/2023/06/12/add parameter/</guid>
+            <pubDate>Mon, 12 Jun 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[This is PGW,PayVault page.]]></description>
+            <content:encoded><![CDATA[<h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="api-overview---appendix">API Overview - Appendix<a href="https://docs.payment.global.rakuten.com/release-note-blog/2023/06/12/add%20parameter/#api-overview---appendix" class="hash-link" aria-label="Direct link to API Overview - Appendix" title="Direct link to API Overview - Appendix">​</a></h3>
+<ul>
+<li>Maintain "3D Secure v2"</li>
+</ul>
+<h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="apipvcardv2forwardresponse">/api/pv/Card/V2/ForwardResponse<a href="https://docs.payment.global.rakuten.com/release-note-blog/2023/06/12/add%20parameter/#apipvcardv2forwardresponse" class="hash-link" aria-label="Direct link to /api/pv/Card/V2/ForwardResponse" title="Direct link to /api/pv/Card/V2/ForwardResponse">​</a></h3>
+<ul>
+<li>Add <code>Digest</code> , <code>Signature-Input</code> and <code>Signature</code> Request Specification - Request Headers to PayVault and update Example Request with curl.</li>
+</ul>]]></content:encoded>
+            <category>PGW</category>
+            <category>PayVault</category>
+        </item>
+        <item>
+            <title><![CDATA[Seller Portal - v1.10.2]]></title>
+            <link>https://docs.payment.global.rakuten.com/release-note-blog/2023/06/12/sellerportal/</link>
+            <guid>https://docs.payment.global.rakuten.com/release-note-blog/2023/06/12/sellerportal/</guid>
+            <pubDate>Mon, 12 Jun 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Seller Portal - v1.10.2]]></description>
+            <content:encoded><![CDATA[<div class="productVersion"><p>Seller Portal - v1.10.2</p></div>
+<br>
+<ul>
+<li>For failed modify operation, show requested new amount. Moved "Amount" column to the left in Payment Details.</li>
+<li>Support modify operation for Yamato</li>
+</ul>]]></content:encoded>
+            <category>Seller Portal</category>
+        </item>
+        <item>
+            <title><![CDATA[Add Prameters at PayVault]]></title>
+            <link>https://docs.payment.global.rakuten.com/release-note-blog/2023/06/09/</link>
+            <guid>https://docs.payment.global.rakuten.com/release-note-blog/2023/06/09/</guid>
+            <pubDate>Fri, 09 Jun 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[This is PayVault changelog.]]></description>
+            <content:encoded><![CDATA[<h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="apipvtotocardv2forward">/api/pv/toto/Card/V2/Forward<a href="https://docs.payment.global.rakuten.com/release-note-blog/2023/06/09/#apipvtotocardv2forward" class="hash-link" aria-label="Direct link to /api/pv/toto/Card/V2/Forward" title="Direct link to /api/pv/toto/Card/V2/Forward">​</a></h3>
+<ul>
+<li>Change some parameters Request Data Object. Response Data Object.</li>
+</ul>]]></content:encoded>
+            <category>PayVault</category>
+        </item>
+        <item>
+            <title><![CDATA[Add Prameters at Payment Step]]></title>
+            <link>https://docs.payment.global.rakuten.com/release-note-blog/2023/06/07/</link>
+            <guid>https://docs.payment.global.rakuten.com/release-note-blog/2023/06/07/</guid>
+            <pubDate>Wed, 07 Jun 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[This is Payment Step changelog.]]></description>
+            <content:encoded><![CDATA[<h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="payment-guest-and-subpage">Payment Guest and subpage<a href="https://docs.payment.global.rakuten.com/release-note-blog/2023/06/07/#payment-guest-and-subpage" class="hash-link" aria-label="Direct link to Payment Guest and subpage" title="Direct link to Payment Guest and subpage">​</a></h3>
+<ul>
+<li>Add some "Screen Item" and "Validation Error Message".</li>
+</ul>
+<!-- -->
+<h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="payment-member">Payment Member<a href="https://docs.payment.global.rakuten.com/release-note-blog/2023/06/07/#payment-member" class="hash-link" aria-label="Direct link to Payment Member" title="Direct link to Payment Member">​</a></h3>
+<ul>
+<li>Add some "Screen Item" and "Validation Error Message".</li>
+</ul>
+<!-- -->
+<h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="login-for-subscription">Login for Subscription<a href="https://docs.payment.global.rakuten.com/release-note-blog/2023/06/07/#login-for-subscription" class="hash-link" aria-label="Direct link to Login for Subscription" title="Direct link to Login for Subscription">​</a></h3>
+<ul>
+<li>Change note topic.</li>
+</ul>
+<div class="browserWindow_my1Q"><div class="browserWindowHeader_jXSR"><div class="buttons_uHc7"><span class="dot_giz1" style="background:#f25f58"></span><span class="dot_giz1" style="background:#fbbe3c"></span><span class="dot_giz1" style="background:#58cb42"></span></div><div class="browserWindowAddressBar_Pd8y text--truncate">http://localhost:3000</div><div class="browserWindowMenuIcon_Vhuh"><div><span class="bar_rrRL"></span><span class="bar_rrRL"></span><span class="bar_rrRL"></span></div></div></div><div class="browserWindowBody_Idgs"><p>ASIS</p><div class="theme-admonition theme-admonition-note admonition_xJq3 alert alert--secondary"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M6.3 5.69a.942.942 0 0 1-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .52.09.7.28.18.19.28.42.28.7 0 .28-.09.52-.28.7a1 1 0 0 1-.7.3c-.28 0-.52-.11-.7-.3zM8 7.99c-.02-.25-.11-.48-.31-.69-.2-.19-.42-.3-.69-.31H6c-.27.02-.48.13-.69.31-.2.2-.3.44-.31.69h1v3c.02.27.11.5.31.69.2.2.42.31.69.31h1c.27 0 .48-.11.69-.31.2-.19.3-.42.31-.69H8V7.98v.01zM7 2.3c-3.14 0-5.7 2.54-5.7 5.68 0 3.14 2.56 5.7 5.7 5.7s5.7-2.55 5.7-5.7c0-3.15-2.56-5.69-5.7-5.69v.01zM7 .98c3.86 0 7 3.14 7 7s-3.14 7-7 7-7-3.12-7-7 3.14-7 7-7z"></path></svg></span>note</div><div class="admonitionContent_BuS1"><p>The feature is to be abolished.<br></p></div></div><p>TOBE</p><div class="theme-admonition theme-admonition-note admonition_xJq3 alert alert--secondary"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M6.3 5.69a.942.942 0 0 1-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .52.09.7.28.18.19.28.42.28.7 0 .28-.09.52-.28.7a1 1 0 0 1-.7.3c-.28 0-.52-.11-.7-.3zM8 7.99c-.02-.25-.11-.48-.31-.69-.2-.19-.42-.3-.69-.31H6c-.27.02-.48.13-.69.31-.2.2-.3.44-.31.69h1v3c.02.27.11.5.31.69.2.2.42.31.69.31h1c.27 0 .48-.11.69-.31.2-.19.3-.42.31-.69H8V7.98v.01zM7 2.3c-3.14 0-5.7 2.54-5.7 5.68 0 3.14 2.56 5.7 5.7 5.7s5.7-2.55 5.7-5.7c0-3.15-2.56-5.69-5.7-5.69v.01zM7 .98c3.86 0 7 3.14 7 7s-3.14 7-7 7-7-3.12-7-7 3.14-7 7-7z"></path></svg></span>note</div><div class="admonitionContent_BuS1"><font color="Red">Please kindly notice that this Page is under construction.</font></div></div></div></div>
+<h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="subscription-member">Subscription Member<a href="https://docs.payment.global.rakuten.com/release-note-blog/2023/06/07/#subscription-member" class="hash-link" aria-label="Direct link to Subscription Member" title="Direct link to Subscription Member">​</a></h3>
+<ul>
+<li>Add some "Screen Item" and "Validation Error Message".</li>
+</ul>]]></content:encoded>
+            <category>Payment Step</category>
+        </item>
+        <item>
+            <title><![CDATA[Add Prameters at Payment Step]]></title>
+            <link>https://docs.payment.global.rakuten.com/release-note-blog/2023/06/06/</link>
+            <guid>https://docs.payment.global.rakuten.com/release-note-blog/2023/06/06/</guid>
+            <pubDate>Tue, 06 Jun 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[This is "Payment Step" changelog.]]></description>
+            <content:encoded><![CDATA[<ul>
+<li>Add some valodation error messages.</li>
+</ul>
+<table><thead><tr><th>No</th><th>Fields</th><th>Descriptions</th><th>Required<br>Optional</th><th>Input Type</th><th>Character type</th><th>min(size)</th></tr></thead><tbody><tr><td>23</td><td>Consumer Transactions Law Link</td><td>Base on the configuration setting.</td><td>-</td><td>Link</td><td>-</td><td>-</td></tr></tbody></table>
+<table><thead><tr><th></th><th>Display Timing</th><th>Message</th><th>Comments</th></tr></thead><tbody><tr><td>2</td><td>Session timeout</td><td>Session timeout, please try again.</td><td>The session has already exceeded the time limit, as a result, need to request again.</td></tr><tr><td>7</td><td>Invalid security code</td><td><del>Please enter security code within 3 and 4 digits.</del><br>This cvv is invalid.</td><td>Shoppers doesn't enter security code in credit card.</td></tr><tr><td>10</td><td>Invalid customer email address</td><td>This field is required.</td><td>Shoppers doesn't enter valid customer e-mail name.</td></tr></tbody></table>]]></content:encoded>
+            <category>Payment Step</category>
+        </item>
+        <item>
+            <title><![CDATA[Seller Portal - v1.10.1]]></title>
+            <link>https://docs.payment.global.rakuten.com/release-note-blog/2023/05/24/sellerportal/</link>
+            <guid>https://docs.payment.global.rakuten.com/release-note-blog/2023/05/24/sellerportal/</guid>
+            <pubDate>Wed, 24 May 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Seller Portal - v1.10.1]]></description>
+            <content:encoded><![CDATA[<div class="productVersion"><p>Seller Portal - v1.10.1</p></div>
+<br>
+<ul>
+<li>Enable internal users to register new clients<br>
+(There is no impact on the current clients as of 2023/05/24.)</li>
+</ul>]]></content:encoded>
+            <category>Seller Portal</category>
+        </item>
+        <item>
+            <title><![CDATA[Bulk Capture - v1.9.1]]></title>
+            <link>https://docs.payment.global.rakuten.com/release-note-blog/2023/05/22/bulkcapture/</link>
+            <guid>https://docs.payment.global.rakuten.com/release-note-blog/2023/05/22/bulkcapture/</guid>
+            <pubDate>Mon, 22 May 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Bulk Capture - v1.9.1]]></description>
+            <content:encoded><![CDATA[<div class="productVersion"><p>Bulk Capture - v1.9.1</p></div>
+<br>
+<ul>
+<li>Enhance request file validation<!-- -->
+<ul>
+<li>Check service ID length strictly</li>
+<li>Does not accept '@' as payment ID</li>
+<li>Match member ID treatment to the specification</li>
+</ul>
+</li>
+</ul>]]></content:encoded>
+            <category>Bulk Capture</category>
+        </item>
+    </channel>
+</rss>

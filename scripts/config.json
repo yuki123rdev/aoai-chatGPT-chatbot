@@ -1,6 +1,7 @@
 [
     {
         "data_path": "<path to data>",
+        "url_prefix": "https://docs.payment.global.rakuten.com/",
         "location": "<azure region, e.g. 'westus2'>",
         "subscription_id": "<subscription id>",
         "resource_group": "<resource group name>",

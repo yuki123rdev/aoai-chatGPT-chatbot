@@ -2,19 +2,19 @@ targetScope = 'subscription'
 
 @minLength(1)
 @maxLength(64)
-@description('Name of the the environment which is used to generate a short unique hash used in all resources.')
+@description('DocPortal AI Chatbot App with RAG system retrieving all the latest DocPortal documentation')
 param environmentName string
 
 @minLength(1)
 @description('Primary location for all resources')
 param location string
 
-param appServicePlanName string = ''
-param backendServiceName string = ''
-param resourceGroupName string = ''
+param appServicePlanName string = 'b6d194e6-9e19-5880-af52-13af61d2fb0e'
+param backendServiceName string = 'b6d194e6-9e19-5880-af52-13af61d2fb0e'
+param resourceGroupName string = 'docportal-ai-dev01'
 
-param searchServiceName string = ''
-param searchServiceResourceGroupName string = ''
+param searchServiceName string = 'docportal-ai-dev01'
+param searchServiceResourceGroupName string = 'docportal-ai-dev01'
 param searchServiceResourceGroupLocation string = location
 param searchServiceSkuName string = ''
 param searchIndexName string = 'gptkbindex'
@@ -27,17 +27,23 @@ param searchFilenameColumn string = 'filepath'
 param searchTitleColumn string = 'title'
 param searchUrlColumn string = 'url'
 
-param openAiResourceName string = ''
-param openAiResourceGroupName string = ''
+param openAiResourceName string = 'ai-docportalaidev01761210292496'
+param openAiResourceGroupName string = 'docportal-ai-dev01'
 param openAiResourceGroupLocation string = location
 param openAiSkuName string = ''
-param openAIModel string = 'turbo16k'
-param openAIModelName string = 'gpt-35-turbo-16k'
+param openAIModel string = 'gpt-4'
+param openAIModelName string = 'gpt-4'
 param openAITemperature int = 0
 param openAITopP int = 1
 param openAIMaxTokens int = 1000
 param openAIStopSequence string = ''
-param openAISystemMessage string = 'You are an AI assistant that helps people find information.'
+param openAISystemMessage string = 'You are an AI assistant that helps the developers who design and implement the Rakuten Payment Platform API Services to their online commerce services. Let them understand the architecture and actual coding methods. Quote only actual API samples described in the custom source data. Try to be specific as much as possible, not to be too generic. When you quote information and write coding examples of "APIs", such as "Authorize API" and "CancelOrRefund API", it is about the proprietary APIs provided by the Rakuten Payment Platform services, not the generic definitions of APIs found in the Internet. Replace the wording "the retrieved documents" with "Rakuten Payment Platform DocPortal". 
+
+Please add citation after each sentence when possible in a form "(Source: citation)", each with hyperlinks to the URL including the file path, prepended with the domain "https://docs.payment.global.rakuten.com". For example, if the citation file path is "guides/intro/card/index.html - Part 1", then create an actual citation URL as "https://docs.payment.global.rakuten.com/guides/intro/card/", discarding " - Part 1" since it is not necessary. You can create more than one citation for a sentence.
+
+You can include the hyperlinks in your response body in the same fashion, if you think adding a hyperlink is good for the user to better understand the context of your response.
+
+Quote the URL prepended with "https://payment.global.rakuten.com/gp/" in neither the text block nor citation block, because it is of the API server, which should be only quoted in sample code block.'
 param openAIStream bool = true
 param embeddingDeploymentName string = 'embedding'
 param embeddingModelName string = 'text-embedding-ada-002'

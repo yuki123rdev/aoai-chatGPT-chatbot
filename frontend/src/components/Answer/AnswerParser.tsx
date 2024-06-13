@@ -8,6 +8,24 @@ export type ParsedAnswer = {
   plotly_data: AzureSqlServerCodeExecResult | null
 }
 
+const convertToCitationUrl = (citations: Citation[]) => {
+  for (const citation of citations) {
+    // TODO: refactor
+    const { filepath } = citation
+    if (filepath == null) {
+      continue
+    }
+    console.log(citation);
+    if (citation.filepath?.toLowerCase().includes("index")) {
+      const url = `https://docs.payment.global.rakuten.com/${citation.filepath}`
+      citation.filepath = url
+      citation.url = url
+      citation.title = citation.filepath
+    }
+  }
+  return citations
+ }
+
 export const enumerateCitations = (citations: Citation[]) => {
   const filepathMap = new Map()
   for (const citation of citations) {
@@ -44,8 +62,10 @@ export function parseAnswer(answer: AskResponse): ParsedAnswer {
 
   filteredCitations = enumerateCitations(filteredCitations)
 
+  const convertedCitations = convertToCitationUrl(filteredCitations)
+
   return {
-    citations: filteredCitations,
+    citations: convertedCitations,
     markdownFormatText: answerText,
     plotly_data: answer.plotly_data
   }

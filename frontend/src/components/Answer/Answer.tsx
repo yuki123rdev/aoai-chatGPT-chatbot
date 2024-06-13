@@ -83,7 +83,8 @@ export const Answer = ({ answer, onCitationClicked, onExectResultClicked }: Prop
     } else {
       citationFilename = `Citation ${index}`
     }
-    return citationFilename
+    // return citation.url ?? `No url for ${citation.title}`
+    return citation.title ?? `No url for ${citation.title}`
   }
 
   const onLikeResponseClicked = async () => {

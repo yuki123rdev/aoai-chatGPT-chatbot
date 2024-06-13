@@ -1,0 +1,456 @@
+<!doctype html>
+<html lang="en" dir="ltr" class="blog-wrapper blog-list-page plugin-blog plugin-id-default" data-has-hydrated="false">
+<head>
+<meta charset="UTF-8">
+<meta name="generator" content="Docusaurus v3.2.1">
+<title data-rh="true">Blog | Rakuten Payment Platform Documentation Portal</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:url" content="https://docs.payment.global.rakuten.com/release-note-blog/"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" property="og:locale:alternate" content="ja"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" property="og:title" content="Blog | Rakuten Payment Platform Documentation Portal"><meta data-rh="true" name="description" content="Blog"><meta data-rh="true" property="og:description" content="Blog"><meta data-rh="true" name="docusaurus_tag" content="blog_posts_list"><meta data-rh="true" name="docsearch:docusaurus_tag" content="blog_posts_list"><link data-rh="true" rel="icon" href="/img/logoR.png"><link data-rh="true" rel="canonical" href="https://docs.payment.global.rakuten.com/release-note-blog/"><link data-rh="true" rel="alternate" href="https://docs.payment.global.rakuten.com/release-note-blog/" hreflang="en"><link data-rh="true" rel="alternate" href="https://docs.payment.global.rakuten.com/ja/release-note-blog/" hreflang="ja"><link data-rh="true" rel="alternate" href="https://docs.payment.global.rakuten.com/release-note-blog/" hreflang="x-default"><link data-rh="true" rel="preconnect" href="https://HRVS4580AM-dsn.algolia.net" crossorigin="anonymous"><link rel="alternate" type="application/rss+xml" href="/release-note-blog/rss.xml" title="Rakuten Payment Platform Documentation Portal RSS Feed">
+<link rel="alternate" type="application/atom+xml" href="/release-note-blog/atom.xml" title="Rakuten Payment Platform Documentation Portal Atom Feed">
+
+<link rel="preconnect" href="https://www.google-analytics.com">
+<link rel="preconnect" href="https://www.googletagmanager.com">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RE7H19L577"></script>
+<script>function gtag(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],gtag("js",new Date),gtag("config","G-RE7H19L577",{anonymize_ip:!0})</script>
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="search" type="application/opensearchdescription+xml" title="Rakuten Payment Platform Documentation Portal" href="/opensearch.xml">
+
+
+
+
+<link rel="stylesheet" href="/vendor/bootstrap/css/bootstrap.min-ec3bb52a00e176a7181d454dffaea219.css">
+<link rel="stylesheet" href="/vendor/metisMenu/css/metisMenu.min-bb3f6f86f3feb94b2ba7b43c9d315c54.css">
+<link rel="stylesheet" href="/css/developer_tool-c89ff5e2e123a5655767d765e09d1f73.css">
+<link rel="stylesheet" href="/css/loader-14604e38937c8d26ac916bf28f2a9f9b.css">
+<link rel="stylesheet" href="/css/webportal-4d03e6d97e3053f274e2592b8d9b57656cbd3555.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jotted@latest/jotted.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.16/codemirror.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.16/theme/material.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" defer="defer"></script>
+<script src="https://cdn.jsdelivr.net/npm/jotted@latest/jotted.min.js" defer="defer"></script>
+<script src="/vendor/bootstrap/js/bootstrap.min.js" defer="defer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" defer="defer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.16/codemirror.min.js" defer="defer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.16/mode/css/css.min.js" defer="defer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.16/mode/javascript/javascript.min.js" defer="defer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.16/mode/xml/xml.min.js" defer="defer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.16/mode/htmlmixed/htmlmixed.min.js" defer="defer"></script>
+<script src="/js/jquery-dateFormat.min-95766bbf0f6b9ef23609620a13d09777.js" defer="defer"></script>
+<script src="/js/devtool-common-9dea6bf50ccb01e308540d56d8b874f2.js" defer="defer"></script>
+<script src="/js/hmac-sha256-e355334677dcf7e7b062c1e1aff8e36d.js" defer="defer"></script>
+<script src="/js/base64-ae4086f4bc9b991b8ac94e25878e29b9.js" defer="defer"></script>
+<script src="/js/aes-d57c122164557ff2dca90400c4744648.js" defer="defer"></script>
+<script src="/js/dialog-9d47d91af9f0a88581e24b4d9f4e1cb1.js" defer="defer"></script>
+<script src="/js/devtool-submit-862a00f15d42f9e8518c299469c19ef6.js" defer="defer"></script>
+<script src="/js/devtool-authorize-771a0bdbc9b763daf235ecd6920116d5.js" defer="defer"></script>
+<script src="/js/devtool-authorizecapture-617244bc322de2914aa86f13dbffebaf.js" defer="defer"></script>
+<script src="/js/devtool-capture-d6ce015f67d7d8449f77e86f43dc532e.js" defer="defer"></script>
+<script src="/js/devtool-cancelRefund-a49c18f1d89ca83450f8e705e0e7a6c3.js" defer="defer"></script>
+<script src="/js/devtool-partialrefund-c88324e6562658a68361c3934d0aa98c.js" defer="defer"></script>
+<script src="/js/devtool-find-f2e6910b7c01bddeacd7e8d5148eb041.js" defer="defer"></script>
+<script src="/js/devtool-modify-0dd4b07cec2d1a7a111d8b3c024423aa.js" defer="defer"></script>
+<script src="/js/encrypt-decrypt-tool-6a519772f0093588b32923ebf96ddf29.js" defer="defer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js" defer="defer"></script><link rel="stylesheet" href="/assets/css/styles.0e845cde.css">
+<script src="/assets/js/runtime~main.aa8ddc73.js" defer="defer"></script>
+<script src="/assets/js/main.56c25086.js" defer="defer"></script>
+</head>
+<body class="navigation-with-keyboard">
+<script>!function(){function t(t){document.documentElement.setAttribute("data-theme",t)}var e=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return localStorage.getItem("theme")}catch(t){}}();null!==e?t(e):window.matchMedia("(prefers-color-scheme: dark)").matches?t("dark"):(window.matchMedia("(prefers-color-scheme: light)").matches,t("light"))}(),function(){try{const c=new URLSearchParams(window.location.search).entries();for(var[t,e]of c)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id="__docusaurus"><div role="region" aria-label="Skip to main content"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">Skip to main content</a></div><div class="headerSub relative flex text-xs items-center justify-between sm:h-8 lg:justify-start" aria-label="Global"><div class="hidden w-full md:flex md:ml-5 md:pr-5 md:space-x-5"><a href="https://payment.rakuten.co.jp/" class="hidden font-medium text-gray-500 hover:text-gray-900">Rakuten Payment</a><a href="https://global.rakuten.com/corp/" class="hidden font-medium text-gray-500 hover:text-gray-900">Rakuten Group</a><a href="/logout/" style="margin-left:auto" class="btnLogin inline-block font-medium text-sky-500 hover:text-white hover:bg-sky-500 px-2 mr-5 border-sky-500 border-2">Log out</a></div></div><div class="relative flex text-xs items-center justify-between sm:h-8 lg:justify-start" aria-label="Global"><div class="hidden w-full md:flex md:ml-5 md:pr-5 md:space-x-5"><img class="h-6" src="/img/logoR.svg" alt=""><div class="nameSiteTitle font-serif h-8 text-base font-bold uppercase"><span>Rakuten Payment Platform Documentation Portal</span></div></div></div><nav aria-label="Main" class="navbar navbar--fixed-top navbarHideable_m1mJ"><div class="navbar__inner"><div class="navbar__items"><button aria-label="Toggle navigation bar" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/"><b class="navbar__title text--truncate">Home</b></a><a class="navbar__item navbar__link" href="/guides/intro/card/">Guides</a><a class="navbar__item navbar__link" href="/products/api-reference/">Products</a><a aria-current="page" class="navbar__item navbar__link navbar__link--active" href="/release-note-blog/">Release notes</a><a class="navbar__item navbar__link" href="/release-notes/">Release notes</a><a class="navbar__item navbar__link" href="/support/">Support</a><a class="navbar__item navbar__link" href="/faq/dashboard/">FAQ</a></div><div class="navbar__items navbar__items--right"><div class="navbar__item dropdown dropdown--hoverable dropdown--right"><a href="#" aria-haspopup="true" aria-expanded="false" role="button" class="navbar__link"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" class="iconLanguage_nlXk"><path fill="currentColor" d="M12.87 15.07l-2.54-2.51.03-.03c1.74-1.94 2.98-4.17 3.71-6.53H17V4h-7V2H8v2H1v1.99h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11.76-2.04zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2l-4.5-12zm-2.62 7l1.62-4.33L19.12 17h-3.24z"></path></svg>English</a><ul class="dropdown__menu"><li><a href="/release-note-blog/" target="_self" rel="noopener noreferrer" class="dropdown__link dropdown__link--active" lang="en">English</a></li><li><a href="/ja/release-note-blog/" target="_self" rel="noopener noreferrer" class="dropdown__link" lang="ja">日本語</a></li></ul></div><div class="toggle_vylO colorModeToggle_DEke"><button class="clean-btn toggleButton_gllP toggleButtonDisabled_aARS" type="button" disabled="" title="Switch between dark and light mode (currently light mode)" aria-label="Switch between dark and light mode (currently light mode)" aria-live="polite"><svg viewBox="0 0 24 24" width="24" height="24" class="lightToggleIcon_pyhR"><path fill="currentColor" d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" class="darkToggleIcon_wfgR"><path fill="currentColor" d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"></path></svg></button></div><div class="navbarSearchContainer_Bca1"><button type="button" class="DocSearch DocSearch-Button" aria-label="Search"><span class="DocSearch-Button-Container"><svg width="20" height="20" class="DocSearch-Search-Icon" viewBox="0 0 20 20" aria-hidden="true"><path d="M14.386 14.386l4.0877 4.0877-4.0877-4.0877c-2.9418 2.9419-7.7115 2.9419-10.6533 0-2.9419-2.9418-2.9419-7.7115 0-10.6533 2.9418-2.9419 7.7115-2.9419 10.6533 0 2.9419 2.9418 2.9419 7.7115 0 10.6533z" stroke="currentColor" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg><span class="DocSearch-Button-Placeholder">Search</span></span><span class="DocSearch-Button-Keys"></span></button></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="main-wrapper mainWrapper_z2l0"><div class="container margin-vert--lg"><div class="row"><aside class="col col--2"><nav class="sidebar_brwN thin-scrollbar pb-2" aria-label="Blog recent posts navigation"><div class="sidebarItemTitle_r4Q1 margin-bottom--md">5 recent posts</div><ul class="sidebarItemList_QwSx clean-list"><li class="sidebarItem_lnhn"><a class="sidebarItemLink_yNGZ" href="/release-note-blog/2024/01/17/">・<!-- -->Seller Portal - v1.11.2</a></li><li class="sidebarItem_lnhn"><a class="sidebarItemLink_yNGZ" href="/release-note-blog/2023/11/07/">・<!-- -->Seller Portal - v1.11.1</a></li><li class="sidebarItem_lnhn"><a class="sidebarItemLink_yNGZ" href="/release-note-blog/2023/10/18/">・<!-- -->Seller Portal - v1.11.0</a></li><li class="sidebarItem_lnhn"><a class="sidebarItemLink_yNGZ" href="/release-note-blog/2023/10/11/">・<!-- -->Seller Portal - v1.10.4</a></li><li class="sidebarItem_lnhn"><a class="sidebarItemLink_yNGZ" href="/release-note-blog/2023/08/24/">・<!-- -->Remove agency code we don&#x27;t provide.</a></li></ul></nav></aside><main class="col col--8" itemscope="" itemtype="http://schema.org/Blog"><h1>Release Note</h1><div class="notFoundJp"><p>all posts</p><div class="subNavbar"><button class="hereYouAre"><a href="/release-note-blog/">All</a></button> <button><a href="/release-note-blog/tags/pgw/">PGW</a></button> <button><a href="/release-note-blog/tags/pay-vault/">PayVault</a></button> <button><a href="/release-note-blog/tags/pay-vault-js/">PayVault.js</a></button> <button><a href="/release-note-blog/tags/payment-step/">Payment Step</a></button>  <button><a href="/release-note-blog/tags/card-updater/">Card Updater</a></button> <button><a href="/release-note-blog/tags/bulk-capture/">Bulk Capture</a></button> <button><a href="/release-note-blog/tags/seller-portal/">Seller Portal</a></button></div><div class="blogunderLine notFoundJp"></div><article><div class="row"><div class="col col--2 border-r-2"><div class="container_EmI_ margin-vert--md"><time datetime="2024-01-17T00:00:00.000Z" itemprop="datePublished">January 17, 2024</time></div><footer class="row docusaurus-mt-lg"><div class="col"><b>Tags:</b><ul class="tags_jXut padding--none margin-left--sm"><li class="tag_QGVx"><a class="tag_zVej tagRegular_sFm0" href="/release-note-blog/tags/seller-portal/">Seller Portal</a></li></ul></div></footer></div><div class="col col--7"><header><h2 class="title_xvU1"><a href="/release-note-blog/2024/01/17/">Seller Portal - v1.11.2</a></h2><div class="container_iJTo margin-vert--md"></div></header><div class="markdown" itemprop="articleBody"><div class="productVersion"><p>Seller Portal - v1.11.2</p></div>
+<br>
+<ul>
+<li>Adds <code>card token</code> to CSV export to help clients identify card issuers</li>
+</ul></div><footer class="row docusaurus-mt-lg"></footer></div></div></article><div class="blogunderLine"></div><article><div class="row"><div class="col col--2 border-r-2"><div class="container_EmI_ margin-vert--md"><time datetime="2023-11-07T00:00:00.000Z" itemprop="datePublished">November 7, 2023</time></div><footer class="row docusaurus-mt-lg"><div class="col"><b>Tags:</b><ul class="tags_jXut padding--none margin-left--sm"><li class="tag_QGVx"><a class="tag_zVej tagRegular_sFm0" href="/release-note-blog/tags/seller-portal/">Seller Portal</a></li></ul></div></footer></div><div class="col col--7"><header><h2 class="title_xvU1"><a href="/release-note-blog/2023/11/07/">Seller Portal - v1.11.1</a></h2><div class="container_iJTo margin-vert--md"></div></header><div class="markdown" itemprop="articleBody"><div class="productVersion"><p>Seller Portal - v1.11.1</p></div>
+<br>
+<ul>
+<li>Improve payment status visibility</li>
+<li>Fix payment details history issue from <a href="https://jira.rakuten-it.com/jira/browse/PAYINQ-7178" target="_blank" rel="noopener noreferrer">https://jira.rakuten-it.com/jira/browse/PAYINQ-7178</a></li>
+</ul></div><footer class="row docusaurus-mt-lg"></footer></div></div></article><div class="blogunderLine"></div><article><div class="row"><div class="col col--2 border-r-2"><div class="container_EmI_ margin-vert--md"><time datetime="2023-10-18T00:00:00.000Z" itemprop="datePublished">October 18, 2023</time></div><footer class="row docusaurus-mt-lg"><div class="col"><b>Tags:</b><ul class="tags_jXut padding--none margin-left--sm"><li class="tag_QGVx"><a class="tag_zVej tagRegular_sFm0" href="/release-note-blog/tags/seller-portal/">Seller Portal</a></li></ul></div></footer></div><div class="col col--7"><header><h2 class="title_xvU1"><a href="/release-note-blog/2023/10/18/">Seller Portal - v1.11.0</a></h2><div class="container_iJTo margin-vert--md"></div></header><div class="markdown" itemprop="articleBody"><div class="productVersion"><p>Seller Portal - v1.11.0</p></div>
+<br>
+<ul>
+<li>Enable to show graphical transaction data for each payment method on Dashboard<!-- -->
+<ul>
+<li>Users can choose payment methods in the chart.</li>
+</ul>
+</li>
+<li>Some UI improvements</li>
+</ul></div><footer class="row docusaurus-mt-lg"></footer></div></div></article><div class="blogunderLine"></div><article><div class="row"><div class="col col--2 border-r-2"><div class="container_EmI_ margin-vert--md"><time datetime="2023-10-11T00:00:00.000Z" itemprop="datePublished">October 11, 2023</time></div><footer class="row docusaurus-mt-lg"><div class="col"><b>Tags:</b><ul class="tags_jXut padding--none margin-left--sm"><li class="tag_QGVx"><a class="tag_zVej tagRegular_sFm0" href="/release-note-blog/tags/seller-portal/">Seller Portal</a></li></ul></div></footer></div><div class="col col--7"><header><h2 class="title_xvU1"><a href="/release-note-blog/2023/10/11/">Seller Portal - v1.10.4</a></h2><div class="container_iJTo margin-vert--md"></div></header><div class="markdown" itemprop="articleBody"><div class="productVersion"><p>Seller Portal - v1.10.4</p></div>
+<br>
+<ul>
+<li>On DEV/STG, show environment labels also on small screens</li>
+<li>Minor UI fixes</li>
+<li>Preparation for release of dashboard Phase II</li>
+</ul></div><footer class="row docusaurus-mt-lg"></footer></div></div></article><div class="blogunderLine"></div><article><div class="row"><div class="col col--2 border-r-2"><div class="container_EmI_ margin-vert--md"><time datetime="2023-08-24T00:00:00.000Z" itemprop="datePublished">August 24, 2023</time></div><footer class="row docusaurus-mt-lg"><div class="col"><b>Tags:</b><ul class="tags_jXut padding--none margin-left--sm"><li class="tag_QGVx"><a class="tag_zVej tagRegular_sFm0" href="/release-note-blog/tags/pgw/">PGW</a></li></ul></div></footer></div><div class="col col--7"><header><h2 class="title_xvU1"><a href="/release-note-blog/2023/08/24/">Remove agency code we don&#x27;t provide.</a></h2><div class="container_iJTo margin-vert--md"></div></header><div class="markdown" itemprop="articleBody"><div class="productVersion"><p>PGW - v1.5</p></div>
+<h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="api-overview">API Overview<a href="#api-overview" class="hash-link" aria-label="Direct link to API Overview" title="Direct link to API Overview">​</a></h3>
+<ul>
+<li>Remove agency code we don&#x27;t provide.<!-- -->
+<ul>
+<li>RakutenBank</li>
+</ul>
+</li>
+</ul></div><footer class="row docusaurus-mt-lg"></footer></div></div></article><div class="blogunderLine"></div><article><div class="row"><div class="col col--2 border-r-2"><div class="container_EmI_ margin-vert--md"><time datetime="2023-08-22T00:00:00.000Z" itemprop="datePublished">August 22, 2023</time></div><footer class="row docusaurus-mt-lg"><div class="col"><b>Tags:</b><ul class="tags_jXut padding--none margin-left--sm"><li class="tag_QGVx"><a class="tag_zVej tagRegular_sFm0" href="/release-note-blog/tags/payment-step/">Payment Step</a></li></ul></div></footer></div><div class="col col--7"><header><h2 class="title_xvU1"><a href="/release-note-blog/2023/08/22/">Add consumerTransactionLawUrl to Payment/V1</a></h2><div class="container_iJTo margin-vert--md"></div></header><div class="markdown" itemprop="articleBody"><h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="paymentv1">Payment/V1<a href="#paymentv1" class="hash-link" aria-label="Direct link to Payment/V1" title="Direct link to Payment/V1">​</a></h3>
+<ul>
+<li>Add <code>consumerTransactionLawUrl</code> to Payment/V1.</li>
+<li>Add some sentence in descrption what is lited bellow.<!-- -->
+<ul>
+<li><code>firstName</code></li>
+<li><code>lastName</code></li>
+<li><code>firstNameKana</code></li>
+<li><code>lastNameKana</code></li>
+<li><code>building</code></li>
+</ul>
+</li>
+<li>Change minimum and maximum size in descrption what is lited bellow.<!-- -->
+<ul>
+<li><code>orderDateJst</code></li>
+<li><code>shippingDateJst</code></li>
+<li><code>invoiceDeliveryType</code></li>
+<li><code>agencycode</code></li>
+<li><code>maxAmount</code></li>
+<li><code>fee</code></li>
+</ul>
+</li>
+</ul></div><footer class="row docusaurus-mt-lg"></footer></div></div></article><div class="blogunderLine"></div><article><div class="row"><div class="col col--2 border-r-2"><div class="container_EmI_ margin-vert--md"><time datetime="2023-08-09T00:00:00.000Z" itemprop="datePublished">August 9, 2023</time></div><footer class="row docusaurus-mt-lg"><div class="col"><b>Tags:</b><ul class="tags_jXut padding--none margin-left--sm"><li class="tag_QGVx"><a class="tag_zVej tagRegular_sFm0" href="/release-note-blog/tags/pgw/">PGW</a></li></ul></div></footer></div><div class="col col--7"><header><h2 class="title_xvU1"><a href="/release-note-blog/2023/08/09/">Add /Payment/V1/Capture to Veritrans Japan</a></h2><div class="container_iJTo margin-vert--md"></div></header><div class="markdown" itemprop="articleBody"><h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="veritrans-japan">Veritrans Japan<a href="#veritrans-japan" class="hash-link" aria-label="Direct link to Veritrans Japan" title="Direct link to Veritrans Japan">​</a></h3>
+<ul>
+<li>Add <code>/Payment/V1/Capture</code> , <code>/3DSecureEnrollment/V2/Check</code> in Available APIs.</li>
+<li>Add <code>Capture API</code> table.</li>
+<li>Add &quot;ErrorCode&quot; table.</li>
+<li>Change <code>mpiAuthorizeResponseDto</code> to <code>veritransJapan3DSecureEnrollmentCheckCallBackData</code> and <code>vResultCode</code> to <code>vresultCode</code> in 3DS2 Request and Response sample - After Redirect Response.</li>
+</ul></div><footer class="row docusaurus-mt-lg"></footer></div></div></article><div class="blogunderLine"></div><article><div class="row"><div class="col col--2 border-r-2"><div class="container_EmI_ margin-vert--md"><time datetime="2023-08-01T00:00:00.000Z" itemprop="datePublished">August 1, 2023</time></div><footer class="row docusaurus-mt-lg"><div class="col"><b>Tags:</b><ul class="tags_jXut padding--none margin-left--sm"><li class="tag_QGVx"><a class="tag_zVej tagRegular_sFm0" href="/release-note-blog/tags/payment-step/">Payment Step</a></li></ul></div></footer></div><div class="col col--7"><header><h2 class="title_xvU1"><a href="/release-note-blog/2023/08/01/">Change description of Provides the Payment Step to Shopper</a></h2><div class="container_iJTo margin-vert--md"></div></header><div class="markdown" itemprop="articleBody"><h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="specification">Specification<a href="#specification" class="hash-link" aria-label="Direct link to Specification" title="Direct link to Specification">​</a></h3>
+<ul>
+<li>Change description of <code>Provides the Payment Step to Shopper</code>.</li>
+</ul></div><footer class="row docusaurus-mt-lg"></footer></div></div></article><div class="blogunderLine"></div><article><div class="row"><div class="col col--2 border-r-2"><div class="container_EmI_ margin-vert--md"><time datetime="2023-07-28T00:00:00.000Z" itemprop="datePublished">July 28, 2023</time></div><footer class="row docusaurus-mt-lg"><div class="col"><b>Tags:</b><ul class="tags_jXut padding--none margin-left--sm"><li class="tag_QGVx"><a class="tag_zVej tagRegular_sFm0" href="/release-note-blog/tags/pgw/">PGW</a></li></ul></div></footer></div><div class="col col--7"><header><h2 class="title_xvU1"><a href="/release-note-blog/2023/07/28/">Change description of pending</a></h2><div class="container_iJTo margin-vert--md"></div></header><div class="markdown" itemprop="articleBody"><h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="result-types-of-api-calls">Result Types of API calls<a href="#result-types-of-api-calls" class="hash-link" aria-label="Direct link to Result Types of API calls" title="Direct link to Result Types of API calls">​</a></h3>
+<ul>
+<li>Change description of pending.</li>
+</ul></div><footer class="row docusaurus-mt-lg"></footer></div></div></article><div class="blogunderLine"></div><article><div class="row"><div class="col col--2 border-r-2"><div class="container_EmI_ margin-vert--md"><time datetime="2023-07-11T00:00:00.000Z" itemprop="datePublished">July 11, 2023</time></div><footer class="row docusaurus-mt-lg"><div class="col"><b>Tags:</b><ul class="tags_jXut padding--none margin-left--sm"><li class="tag_QGVx"><a class="tag_zVej tagRegular_sFm0" href="/release-note-blog/tags/seller-portal/">Seller Portal</a></li></ul></div></footer></div><div class="col col--7"><header><h2 class="title_xvU1"><a href="/release-note-blog/2023/07/11/">Seller Portal - v1.10.3</a></h2><div class="container_iJTo margin-vert--md"></div></header><div class="markdown" itemprop="articleBody"><div class="productVersion"><p>Seller Portal - v1.10.3</p></div>
+<br>
+<ul>
+<li>Add rakutenCouponCode field to payment CSV export.</li>
+<li>Fix Payment Details display of Rakuten Pay Online directcapture and some CTCB transactions.</li>
+<li>Payment CSV download: Start download within 10 seconds or send via email otherwise.</li>
+<li>Avoid Gateway Timeout errors on payment searches.</li>
+</ul></div><footer class="row docusaurus-mt-lg"></footer></div></div></article><div class="blogunderLine"></div><article><div class="row"><div class="col col--2 border-r-2"><div class="container_EmI_ margin-vert--md"><time datetime="2023-07-10T00:00:00.000Z" itemprop="datePublished">July 10, 2023</time></div><footer class="row docusaurus-mt-lg"><div class="col"><b>Tags:</b><ul class="tags_jXut padding--none margin-left--sm"><li class="tag_QGVx"><a class="tag_zVej tagRegular_sFm0" href="/release-note-blog/tags/pgw/">PGW</a></li></ul></div></footer></div><div class="col col--7"><header><h2 class="title_xvU1"><a href="/release-note-blog/2023/07/10/">Add RakutenCard</a></h2><div class="container_iJTo margin-vert--md"></div></header><div class="markdown" itemprop="articleBody"><h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="rakutencard">RakutenCard<a href="#rakutencard" class="hash-link" aria-label="Direct link to RakutenCard" title="Direct link to RakutenCard">​</a></h3>
+<ul>
+<li>Add <code>custom</code> , <code>japanBillingAddress</code> , <code>easyId</code> and <code>mobilePhoneNumber</code> in Card Verification &amp; Card Holder Authentication, Request sample and Response Sample.</li>
+<li>Add comment of Immediate Payment.</li>
+</ul></div><footer class="row docusaurus-mt-lg"></footer></div></div></article><div class="blogunderLine"></div><article><div class="row"><div class="col col--2 border-r-2"><div class="container_EmI_ margin-vert--md"><time datetime="2023-06-28T00:00:00.000Z" itemprop="datePublished">June 28, 2023</time></div><footer class="row docusaurus-mt-lg"><div class="col"><b>Tags:</b><ul class="tags_jXut padding--none margin-left--sm"><li class="tag_QGVx"><a class="tag_zVej tagRegular_sFm0" href="/release-note-blog/tags/payment-step/">Payment Step</a></li></ul></div></footer></div><div class="col col--7"><header><h2 class="title_xvU1"><a href="/release-note-blog/2023/06/28/">Change Subscription/V1</a></h2><div class="container_iJTo margin-vert--md"></div></header><div class="markdown" itemprop="articleBody"><h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="subscriptionv1">Subscription/V1<a href="#subscriptionv1" class="hash-link" aria-label="Direct link to Subscription/V1" title="Direct link to Subscription/V1">​</a></h3>
+<ul>
+<li>Add <code>consumerTransactionLawUrl</code> in Request Data.</li>
+</ul></div><footer class="row docusaurus-mt-lg"></footer></div></div></article><div class="blogunderLine"></div><article><div class="row"><div class="col col--2 border-r-2"><div class="container_EmI_ margin-vert--md"><time datetime="2023-06-14T00:00:00.000Z" itemprop="datePublished">June 14, 2023</time></div><footer class="row docusaurus-mt-lg"><div class="col"><b>Tags:</b><ul class="tags_jXut padding--none margin-left--sm"><li class="tag_QGVx"><a class="tag_zVej tagRegular_sFm0" href="/release-note-blog/tags/payment-step/">Payment Step</a></li></ul></div></footer></div><div class="col col--7"><header><h2 class="title_xvU1"><a href="/release-note-blog/2023/06/14/">Change ShortUrl/V1/Create description</a></h2><div class="container_iJTo margin-vert--md"></div></header><div class="markdown" itemprop="articleBody"><h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="shorturlv1create-description">ShortUrl/V1/Create description<a href="#shorturlv1create-description" class="hash-link" aria-label="Direct link to ShortUrl/V1/Create description" title="Direct link to ShortUrl/V1/Create description">​</a></h3>
+<ul>
+<li>Change oneTimeId description in requestdata.</li>
+<li>Add <code>Some business cases</code> request description in requestdata.</li>
+</ul>
+<h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="implement-with-shorturl-api">Implement with ShortUrl API<a href="#implement-with-shorturl-api" class="hash-link" aria-label="Direct link to Implement with ShortUrl API" title="Direct link to Implement with ShortUrl API">​</a></h3></div><footer class="row docusaurus-mt-lg"></footer></div></div></article><div class="blogunderLine"></div><article><div class="row"><div class="col col--2 border-r-2"><div class="container_EmI_ margin-vert--md"><time datetime="2023-06-12T00:00:00.000Z" itemprop="datePublished">June 12, 2023</time></div><footer class="row docusaurus-mt-lg"><div class="col"><b>Tags:</b><ul class="tags_jXut padding--none margin-left--sm"><li class="tag_QGVx"><a class="tag_zVej tagRegular_sFm0" href="/release-note-blog/tags/pgw/">PGW</a></li><li class="tag_QGVx"><a class="tag_zVej tagRegular_sFm0" href="/release-note-blog/tags/pay-vault/">PayVault</a></li></ul></div></footer></div><div class="col col--7"><header><h2 class="title_xvU1"><a href="/release-note-blog/2023/06/12/add parameter/">Add Prameters</a></h2><div class="container_iJTo margin-vert--md"></div></header><div class="markdown" itemprop="articleBody"><h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="api-overview---appendix">API Overview - Appendix<a href="#api-overview---appendix" class="hash-link" aria-label="Direct link to API Overview - Appendix" title="Direct link to API Overview - Appendix">​</a></h3>
+<ul>
+<li>Maintain &quot;3D Secure v2&quot;</li>
+</ul>
+<h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="apipvcardv2forwardresponse">/api/pv/Card/V2/ForwardResponse<a href="#apipvcardv2forwardresponse" class="hash-link" aria-label="Direct link to /api/pv/Card/V2/ForwardResponse" title="Direct link to /api/pv/Card/V2/ForwardResponse">​</a></h3>
+<ul>
+<li>Add <code>Digest</code> , <code>Signature-Input</code> and <code>Signature</code> Request Specification - Request Headers to PayVault and update Example Request with curl.</li>
+</ul></div><footer class="row docusaurus-mt-lg"></footer></div></div></article><div class="blogunderLine"></div><article><div class="row"><div class="col col--2 border-r-2"><div class="container_EmI_ margin-vert--md"><time datetime="2023-06-12T00:00:00.000Z" itemprop="datePublished">June 12, 2023</time></div><footer class="row docusaurus-mt-lg"><div class="col"><b>Tags:</b><ul class="tags_jXut padding--none margin-left--sm"><li class="tag_QGVx"><a class="tag_zVej tagRegular_sFm0" href="/release-note-blog/tags/seller-portal/">Seller Portal</a></li></ul></div></footer></div><div class="col col--7"><header><h2 class="title_xvU1"><a href="/release-note-blog/2023/06/12/sellerportal/">Seller Portal - v1.10.2</a></h2><div class="container_iJTo margin-vert--md"></div></header><div class="markdown" itemprop="articleBody"><div class="productVersion"><p>Seller Portal - v1.10.2</p></div>
+<br>
+<ul>
+<li>For failed modify operation, show requested new amount. Moved &quot;Amount&quot; column to the left in Payment Details.</li>
+<li>Support modify operation for Yamato</li>
+</ul></div><footer class="row docusaurus-mt-lg"></footer></div></div></article><div class="blogunderLine"></div><article><div class="row"><div class="col col--2 border-r-2"><div class="container_EmI_ margin-vert--md"><time datetime="2023-06-09T00:00:00.000Z" itemprop="datePublished">June 9, 2023</time></div><footer class="row docusaurus-mt-lg"><div class="col"><b>Tags:</b><ul class="tags_jXut padding--none margin-left--sm"><li class="tag_QGVx"><a class="tag_zVej tagRegular_sFm0" href="/release-note-blog/tags/pay-vault/">PayVault</a></li></ul></div></footer></div><div class="col col--7"><header><h2 class="title_xvU1"><a href="/release-note-blog/2023/06/09/">Add Prameters at PayVault</a></h2><div class="container_iJTo margin-vert--md"></div></header><div class="markdown" itemprop="articleBody"><h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="apipvtotocardv2forward">/api/pv/toto/Card/V2/Forward<a href="#apipvtotocardv2forward" class="hash-link" aria-label="Direct link to /api/pv/toto/Card/V2/Forward" title="Direct link to /api/pv/toto/Card/V2/Forward">​</a></h3>
+<ul>
+<li>Change some parameters Request Data Object. Response Data Object.</li>
+</ul></div><footer class="row docusaurus-mt-lg"></footer></div></div></article><div class="blogunderLine"></div><article><div class="row"><div class="col col--2 border-r-2"><div class="container_EmI_ margin-vert--md"><time datetime="2023-06-07T00:00:00.000Z" itemprop="datePublished">June 7, 2023</time></div><footer class="row docusaurus-mt-lg"><div class="col"><b>Tags:</b><ul class="tags_jXut padding--none margin-left--sm"><li class="tag_QGVx"><a class="tag_zVej tagRegular_sFm0" href="/release-note-blog/tags/payment-step/">Payment Step</a></li></ul></div></footer></div><div class="col col--7"><header><h2 class="title_xvU1"><a href="/release-note-blog/2023/06/07/">Add Prameters at Payment Step</a></h2><div class="container_iJTo margin-vert--md"></div></header><div class="markdown" itemprop="articleBody"><h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="payment-guest-and-subpage">Payment Guest and subpage<a href="#payment-guest-and-subpage" class="hash-link" aria-label="Direct link to Payment Guest and subpage" title="Direct link to Payment Guest and subpage">​</a></h3>
+<ul>
+<li>Add some &quot;Screen Item&quot; and &quot;Validation Error Message&quot;.</li>
+</ul>
+<!-- -->
+<h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="payment-member">Payment Member<a href="#payment-member" class="hash-link" aria-label="Direct link to Payment Member" title="Direct link to Payment Member">​</a></h3>
+<ul>
+<li>Add some &quot;Screen Item&quot; and &quot;Validation Error Message&quot;.</li>
+</ul>
+<!-- -->
+<h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="login-for-subscription">Login for Subscription<a href="#login-for-subscription" class="hash-link" aria-label="Direct link to Login for Subscription" title="Direct link to Login for Subscription">​</a></h3>
+<ul>
+<li>Change note topic.</li>
+</ul>
+<div class="browserWindow_my1Q"><div class="browserWindowHeader_jXSR"><div class="buttons_uHc7"><span class="dot_giz1" style="background:#f25f58"></span><span class="dot_giz1" style="background:#fbbe3c"></span><span class="dot_giz1" style="background:#58cb42"></span></div><div class="browserWindowAddressBar_Pd8y text--truncate">http://localhost:3000</div><div class="browserWindowMenuIcon_Vhuh"><div><span class="bar_rrRL"></span><span class="bar_rrRL"></span><span class="bar_rrRL"></span></div></div></div><div class="browserWindowBody_Idgs"><p>ASIS</p><div class="theme-admonition theme-admonition-note admonition_xJq3 alert alert--secondary"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M6.3 5.69a.942.942 0 0 1-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .52.09.7.28.18.19.28.42.28.7 0 .28-.09.52-.28.7a1 1 0 0 1-.7.3c-.28 0-.52-.11-.7-.3zM8 7.99c-.02-.25-.11-.48-.31-.69-.2-.19-.42-.3-.69-.31H6c-.27.02-.48.13-.69.31-.2.2-.3.44-.31.69h1v3c.02.27.11.5.31.69.2.2.42.31.69.31h1c.27 0 .48-.11.69-.31.2-.19.3-.42.31-.69H8V7.98v.01zM7 2.3c-3.14 0-5.7 2.54-5.7 5.68 0 3.14 2.56 5.7 5.7 5.7s5.7-2.55 5.7-5.7c0-3.15-2.56-5.69-5.7-5.69v.01zM7 .98c3.86 0 7 3.14 7 7s-3.14 7-7 7-7-3.12-7-7 3.14-7 7-7z"></path></svg></span>note</div><div class="admonitionContent_BuS1"><p>The feature is to be abolished.<br></p></div></div><p>TOBE</p><div class="theme-admonition theme-admonition-note admonition_xJq3 alert alert--secondary"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M6.3 5.69a.942.942 0 0 1-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .52.09.7.28.18.19.28.42.28.7 0 .28-.09.52-.28.7a1 1 0 0 1-.7.3c-.28 0-.52-.11-.7-.3zM8 7.99c-.02-.25-.11-.48-.31-.69-.2-.19-.42-.3-.69-.31H6c-.27.02-.48.13-.69.31-.2.2-.3.44-.31.69h1v3c.02.27.11.5.31.69.2.2.42.31.69.31h1c.27 0 .48-.11.69-.31.2-.19.3-.42.31-.69H8V7.98v.01zM7 2.3c-3.14 0-5.7 2.54-5.7 5.68 0 3.14 2.56 5.7 5.7 5.7s5.7-2.55 5.7-5.7c0-3.15-2.56-5.69-5.7-5.69v.01zM7 .98c3.86 0 7 3.14 7 7s-3.14 7-7 7-7-3.12-7-7 3.14-7 7-7z"></path></svg></span>note</div><div class="admonitionContent_BuS1"><font color="Red">Please kindly notice that this Page is under construction.</font></div></div></div></div>
+<h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="subscription-member">Subscription Member<a href="#subscription-member" class="hash-link" aria-label="Direct link to Subscription Member" title="Direct link to Subscription Member">​</a></h3>
+<ul>
+<li>Add some &quot;Screen Item&quot; and &quot;Validation Error Message&quot;.</li>
+</ul></div><footer class="row docusaurus-mt-lg"></footer></div></div></article><div class="blogunderLine"></div><article><div class="row"><div class="col col--2 border-r-2"><div class="container_EmI_ margin-vert--md"><time datetime="2023-06-06T00:00:00.000Z" itemprop="datePublished">June 6, 2023</time></div><footer class="row docusaurus-mt-lg"><div class="col"><b>Tags:</b><ul class="tags_jXut padding--none margin-left--sm"><li class="tag_QGVx"><a class="tag_zVej tagRegular_sFm0" href="/release-note-blog/tags/payment-step/">Payment Step</a></li></ul></div></footer></div><div class="col col--7"><header><h2 class="title_xvU1"><a href="/release-note-blog/2023/06/06/">Add Prameters at Payment Step</a></h2><div class="container_iJTo margin-vert--md"></div></header><div class="markdown" itemprop="articleBody"><ul>
+<li>Add some valodation error messages.</li>
+</ul>
+<table><thead><tr><th>No</th><th>Fields</th><th>Descriptions</th><th>Required<br>Optional</th><th>Input Type</th><th>Character type</th><th>min(size)</th></tr></thead><tbody><tr><td>23</td><td>Consumer Transactions Law Link</td><td>Base on the configuration setting.</td><td>-</td><td>Link</td><td>-</td><td>-</td></tr></tbody></table>
+<table><thead><tr><th></th><th>Display Timing</th><th>Message</th><th>Comments</th></tr></thead><tbody><tr><td>2</td><td>Session timeout</td><td>Session timeout, please try again.</td><td>The session has already exceeded the time limit, as a result, need to request again.</td></tr><tr><td>7</td><td>Invalid security code</td><td><del>Please enter security code within 3 and 4 digits.</del><br>This cvv is invalid.</td><td>Shoppers doesn&#x27;t enter security code in credit card.</td></tr><tr><td>10</td><td>Invalid customer email address</td><td>This field is required.</td><td>Shoppers doesn&#x27;t enter valid customer e-mail name.</td></tr></tbody></table></div><footer class="row docusaurus-mt-lg"></footer></div></div></article><div class="blogunderLine"></div><article><div class="row"><div class="col col--2 border-r-2"><div class="container_EmI_ margin-vert--md"><time datetime="2023-05-24T00:00:00.000Z" itemprop="datePublished">May 24, 2023</time></div><footer class="row docusaurus-mt-lg"><div class="col"><b>Tags:</b><ul class="tags_jXut padding--none margin-left--sm"><li class="tag_QGVx"><a class="tag_zVej tagRegular_sFm0" href="/release-note-blog/tags/seller-portal/">Seller Portal</a></li></ul></div></footer></div><div class="col col--7"><header><h2 class="title_xvU1"><a href="/release-note-blog/2023/05/24/sellerportal/">Seller Portal - v1.10.1</a></h2><div class="container_iJTo margin-vert--md"></div></header><div class="markdown" itemprop="articleBody"><div class="productVersion"><p>Seller Portal - v1.10.1</p></div>
+<br>
+<ul>
+<li>Enable internal users to register new clients<br>
+(There is no impact on the current clients as of 2023/05/24.)</li>
+</ul></div><footer class="row docusaurus-mt-lg"></footer></div></div></article><div class="blogunderLine"></div><article><div class="row"><div class="col col--2 border-r-2"><div class="container_EmI_ margin-vert--md"><time datetime="2023-05-22T00:00:00.000Z" itemprop="datePublished">May 22, 2023</time></div><footer class="row docusaurus-mt-lg"><div class="col"><b>Tags:</b><ul class="tags_jXut padding--none margin-left--sm"><li class="tag_QGVx"><a class="tag_zVej tagRegular_sFm0" href="/release-note-blog/tags/bulk-capture/">Bulk Capture</a></li></ul></div></footer></div><div class="col col--7"><header><h2 class="title_xvU1"><a href="/release-note-blog/2023/05/22/bulkcapture/">Bulk Capture - v1.9.1</a></h2><div class="container_iJTo margin-vert--md"></div></header><div class="markdown" itemprop="articleBody"><div class="productVersion"><p>Bulk Capture - v1.9.1</p></div>
+<br>
+<ul>
+<li>Enhance request file validation<!-- -->
+<ul>
+<li>Check service ID length strictly</li>
+<li>Does not accept &#x27;@&#x27; as payment ID</li>
+<li>Match member ID treatment to the specification</li>
+</ul>
+</li>
+</ul></div><footer class="row docusaurus-mt-lg"></footer></div></div></article><div class="blogunderLine"></div><article><div class="row"><div class="col col--2 border-r-2"><div class="container_EmI_ margin-vert--md"><time datetime="2023-05-22T00:00:00.000Z" itemprop="datePublished">May 22, 2023</time></div><footer class="row docusaurus-mt-lg"><div class="col"><b>Tags:</b><ul class="tags_jXut padding--none margin-left--sm"><li class="tag_QGVx"><a class="tag_zVej tagRegular_sFm0" href="/release-note-blog/tags/seller-portal/">Seller Portal</a></li></ul></div></footer></div><div class="col col--7"><header><h2 class="title_xvU1"><a href="/release-note-blog/2023/05/22/sellerportal/">Seller Portal - v1.9.6</a></h2><div class="container_iJTo margin-vert--md"></div></header><div class="markdown" itemprop="articleBody"><div class="productVersion"><p>Seller Portal - v1.9.6</p></div>
+<br>
+<ul>
+<li>Resolved an issue where payment information matching certain criteria was displayed incorrectly on the home screen.</li>
+<li>Fixed minor UI issues.</li>
+<li>Made logo a link to the home page.</li>
+</ul></div><footer class="row docusaurus-mt-lg"></footer></div></div></article><div class="blogunderLine"></div><article><div class="row"><div class="col col--2 border-r-2"><div class="container_EmI_ margin-vert--md"><time datetime="2023-05-17T00:00:00.000Z" itemprop="datePublished">May 17, 2023</time></div><footer class="row docusaurus-mt-lg"><div class="col"><b>Tags:</b><ul class="tags_jXut padding--none margin-left--sm"><li class="tag_QGVx"><a class="tag_zVej tagRegular_sFm0" href="/release-note-blog/tags/pgw/">PGW</a></li></ul></div></footer></div><div class="col col--7"><header><h2 class="title_xvU1"><a href="/release-note-blog/2023/05/17/">Add Warning on challengeIndicatorType</a></h2><div class="container_iJTo margin-vert--md"></div></header><div class="markdown" itemprop="articleBody"><ul>
+<li>In 3DSecureEnrollment/V2/Check - Request Data, We added &quot;warning&quot; at challengeIndicatorType.</li>
+</ul>
+<div class="browserWindow_my1Q"><div class="browserWindowHeader_jXSR"><div class="buttons_uHc7"><span class="dot_giz1" style="background:#f25f58"></span><span class="dot_giz1" style="background:#fbbe3c"></span><span class="dot_giz1" style="background:#58cb42"></span></div><div class="browserWindowAddressBar_Pd8y text--truncate">http://localhost:3000</div><div class="browserWindowMenuIcon_Vhuh"><div><span class="bar_rrRL"></span><span class="bar_rrRL"></span><span class="bar_rrRL"></span></div></div></div><div class="browserWindowBody_Idgs"><div class="theme-admonition theme-admonition-danger admonition_xJq3 alert alert--danger"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M5.05.31c.81 2.17.41 3.38-.52 4.31C3.55 5.67 1.98 6.45.9 7.98c-1.45 2.05-1.7 6.53 3.53 7.7-2.2-1.16-2.67-4.52-.3-6.61-.61 2.03.53 3.33 1.94 2.86 1.39-.47 2.3.53 2.27 1.67-.02.78-.31 1.44-1.13 1.81 3.42-.59 4.78-3.42 4.78-5.56 0-2.84-2.53-3.22-1.25-5.61-1.52.13-2.03 1.13-1.89 2.75.09 1.08-1.02 1.8-1.86 1.33-.67-.41-.66-1.19-.06-1.78C8.18 5.31 8.68 2.45 5.05.32L5.03.3l.02.01z"></path></svg></span>Warning</div><div class="admonitionContent_BuS1"><p>It works as set if it&#x27;s a request to rakutencard as issuer.</p><p>If it&#x27;s other issuers, the result is up to each issuer unlike 3ds1.</p><p>There is no way to know rules of them.</p><p>You can check the result on Seller Portal.</p></div></div></div></div></div><footer class="row docusaurus-mt-lg"></footer></div></div></article><div class="blogunderLine"></div><article><div class="row"><div class="col col--2 border-r-2"><div class="container_EmI_ margin-vert--md"><time datetime="2023-03-29T00:00:00.000Z" itemprop="datePublished">March 29, 2023</time></div><footer class="row docusaurus-mt-lg"><div class="col"><b>Tags:</b><ul class="tags_jXut padding--none margin-left--sm"><li class="tag_QGVx"><a class="tag_zVej tagRegular_sFm0" href="/release-note-blog/tags/seller-portal/">Seller Portal</a></li></ul></div></footer></div><div class="col col--7"><header><h2 class="title_xvU1"><a href="/release-note-blog/2023/03/29/sellerportal/">Seller Portal - v1.9.5</a></h2><div class="container_iJTo margin-vert--md"></div></header><div class="markdown" itemprop="articleBody"><div class="productVersion"><p>Seller Portal - v1.9.5</p></div>
+<br>
+<ul>
+<li>Add dashboard page</li>
+</ul></div><footer class="row docusaurus-mt-lg"></footer></div></div></article><div class="blogunderLine"></div><article><div class="row"><div class="col col--2 border-r-2"><div class="container_EmI_ margin-vert--md"><time datetime="2023-03-28T00:00:00.000Z" itemprop="datePublished">March 28, 2023</time></div><footer class="row docusaurus-mt-lg"><div class="col col--9"><b>Tags:</b><ul class="tags_jXut padding--none margin-left--sm"><li class="tag_QGVx"><a class="tag_zVej tagRegular_sFm0" href="/release-note-blog/tags/pgw/">PGW</a></li></ul></div></footer></div><div class="col col--7"><header><h2 class="title_xvU1"><a href="/release-note-blog/2023/03/28/">Add note for yamato modify</a></h2><div class="container_iJTo margin-vert--md"></div></header><div class="markdown" itemprop="articleBody"><p>Add note for yamato modify</p></div><footer class="row docusaurus-mt-lg"><div class="col text--right col--3"><a aria-label="Read more about Add note for yamato modify" href="/release-note-blog/2023/03/28/"><b>Read More</b></a></div></footer></div></div></article><div class="blogunderLine"></div><article><div class="row"><div class="col col--2 border-r-2"><div class="container_EmI_ margin-vert--md"><time datetime="2023-03-13T00:00:00.000Z" itemprop="datePublished">March 13, 2023</time></div><footer class="row docusaurus-mt-lg"><div class="col"><b>Tags:</b><ul class="tags_jXut padding--none margin-left--sm"><li class="tag_QGVx"><a class="tag_zVej tagRegular_sFm0" href="/release-note-blog/tags/seller-portal/">Seller Portal</a></li></ul></div></footer></div><div class="col col--7"><header><h2 class="title_xvU1"><a href="/release-note-blog/2023/03/13/sellerportal/">Seller Portal - v1.9.4</a></h2><div class="container_iJTo margin-vert--md"></div></header><div class="markdown" itemprop="articleBody"><div class="productVersion"><p>Seller Portal - v1.9.4</p></div>
+<br>
+<ul>
+<li>Add aggregation batch for dashboard</li>
+</ul></div><footer class="row docusaurus-mt-lg"></footer></div></div></article><div class="blogunderLine"></div><article><div class="row"><div class="col col--2 border-r-2"><div class="container_EmI_ margin-vert--md"><time datetime="2023-02-14T00:00:00.000Z" itemprop="datePublished">February 14, 2023</time></div><footer class="row docusaurus-mt-lg"><div class="col"><b>Tags:</b><ul class="tags_jXut padding--none margin-left--sm"><li class="tag_QGVx"><a class="tag_zVej tagRegular_sFm0" href="/release-note-blog/tags/pay-vault-js/">PayVault.js</a></li></ul></div></footer></div><div class="col col--7"><header><h2 class="title_xvU1"><a href="/release-note-blog/2023/02/14/">V7.5 payvault.js</a></h2><div class="container_iJTo margin-vert--md"></div></header><div class="markdown" itemprop="articleBody"><div class="productVersion"><p>PayVault.js - v7.5</p></div>
+<h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="change">Change<a href="#change" class="hash-link" aria-label="Direct link to Change" title="Direct link to Change">​</a></h3>
+<ul>
+<li>Make CSS validation being consistent</li>
+</ul>
+<h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="improved">Improved<a href="#improved" class="hash-link" aria-label="Direct link to Improved" title="Direct link to Improved">​</a></h3>
+<ul>
+<li>CVV length validation improvement</li>
+<li>Unit test improvements</li>
+</ul></div><footer class="row docusaurus-mt-lg"></footer></div></div></article><div class="blogunderLine"></div><article><div class="row"><div class="col col--2 border-r-2"><div class="container_EmI_ margin-vert--md"><time datetime="2023-01-25T00:00:00.000Z" itemprop="datePublished">January 25, 2023</time></div><footer class="row docusaurus-mt-lg"><div class="col"><b>Tags:</b><ul class="tags_jXut padding--none margin-left--sm"><li class="tag_QGVx"><a class="tag_zVej tagRegular_sFm0" href="/release-note-blog/tags/bulk-capture/">Bulk Capture</a></li></ul></div></footer></div><div class="col col--7"><header><h2 class="title_xvU1"><a href="/release-note-blog/2023/01/25/bulkcapture/">Bulk Capture - v1.9.0</a></h2><div class="container_iJTo margin-vert--md"></div></header><div class="markdown" itemprop="articleBody"><div class="productVersion"><p>Bulk Capture - v1.9.0</p></div>
+<br>
+<ul>
+<li>Introduced New authorization scheme switch. Needs to be specified as true or false at runtime.</li>
+<li>If Bulk Capture is executed with New authorization scheme switch as true,<!-- -->
+<ul>
+<li>If the result of card update is false in withAuthorize==false payment, it will be executed withAuthorize.</li>
+<li>If the credit card is issued by OFF-US contract issuers (companyCode=&quot;2R59875&quot;), it will be executed withAuthorize.</li>
+</ul>
+</li>
+</ul></div><footer class="row docusaurus-mt-lg"></footer></div></div></article><div class="blogunderLine"></div><article><div class="row"><div class="col col--2 border-r-2"><div class="container_EmI_ margin-vert--md"><time datetime="2023-01-23T00:00:00.000Z" itemprop="datePublished">January 23, 2023</time></div><footer class="row docusaurus-mt-lg"><div class="col"><b>Tags:</b><ul class="tags_jXut padding--none margin-left--sm"><li class="tag_QGVx"><a class="tag_zVej tagRegular_sFm0" href="/release-note-blog/tags/seller-portal/">Seller Portal</a></li></ul></div></footer></div><div class="col col--7"><header><h2 class="title_xvU1"><a href="/release-note-blog/2023/01/23/sellerportal/">Seller Portal - v1.9.3</a></h2><div class="container_iJTo margin-vert--md"></div></header><div class="markdown" itemprop="articleBody"><div class="productVersion"><p>Seller Portal - v1.9.3</p></div>
+<br>
+<ul>
+<li>Enhance support for RPay Online and JACCS</li>
+<li>Allow bulk modification of grant points</li>
+<li>Improve PgwImportBatch performance</li>
+</ul></div><footer class="row docusaurus-mt-lg"></footer></div></div></article><div class="blogunderLine"></div><article><div class="row"><div class="col col--2 border-r-2"><div class="container_EmI_ margin-vert--md"><time datetime="2022-11-16T00:00:00.000Z" itemprop="datePublished">November 16, 2022</time></div><footer class="row docusaurus-mt-lg"><div class="col"><b>Tags:</b><ul class="tags_jXut padding--none margin-left--sm"><li class="tag_QGVx"><a class="tag_zVej tagRegular_sFm0" href="/release-note-blog/tags/seller-portal/">Seller Portal</a></li></ul></div></footer></div><div class="col col--7"><header><h2 class="title_xvU1"><a href="/release-note-blog/2022/11/16/sellerportal/">Seller Portal - v1.9.2</a></h2><div class="container_iJTo margin-vert--md"></div></header><div class="markdown" itemprop="articleBody"><div class="productVersion"><p>Seller Portal - v1.9.2</p></div>
+<br>
+<ul>
+<li>Redeem/Grant point request key &amp; transaction IDs added to CSV export</li>
+<li>Can search for 3DS authentications by authentication status and transaction status</li>
+</ul></div><footer class="row docusaurus-mt-lg"></footer></div></div></article><div class="blogunderLine"></div><article><div class="row"><div class="col col--2 border-r-2"><div class="container_EmI_ margin-vert--md"><time datetime="2022-10-17T00:00:00.000Z" itemprop="datePublished">October 17, 2022</time></div><footer class="row docusaurus-mt-lg"><div class="col"><b>Tags:</b><ul class="tags_jXut padding--none margin-left--sm"><li class="tag_QGVx"><a class="tag_zVej tagRegular_sFm0" href="/release-note-blog/tags/seller-portal/">Seller Portal</a></li></ul></div></footer></div><div class="col col--7"><header><h2 class="title_xvU1"><a href="/release-note-blog/2022/10/17/sellerportal/">Seller Portal - v1.9.1</a></h2><div class="container_iJTo margin-vert--md"></div></header><div class="markdown" itemprop="articleBody"><div class="productVersion"><p>Seller Portal - v1.9.1</p></div>
+<br>
+<ul>
+<li>Show additional fields for 3D Secure Authentications</li>
+<li>Show Operations button by default in Payments page</li>
+</ul></div><footer class="row docusaurus-mt-lg"></footer></div></div></article><div class="blogunderLine"></div><article><div class="row"><div class="col col--2 border-r-2"><div class="container_EmI_ margin-vert--md"><time datetime="2022-09-28T00:00:00.000Z" itemprop="datePublished">September 28, 2022</time></div><footer class="row docusaurus-mt-lg"><div class="col"><b>Tags:</b><ul class="tags_jXut padding--none margin-left--sm"><li class="tag_QGVx"><a class="tag_zVej tagRegular_sFm0" href="/release-note-blog/tags/card-updater/">Card Updater</a></li></ul></div></footer></div><div class="col col--7"><header><h2 class="title_xvU1"><a href="/release-note-blog/2022/09/28/cardupdater/">Card Updater</a></h2><div class="container_iJTo margin-vert--md"></div></header><div class="markdown" itemprop="articleBody"><div class="productVersion"></div>
+<br>
+<ul>
+<li>Add expirationMonth and expirationYear to card update request interface.</li>
+<li>Delete the explanation from Response IF &quot;When only expiry date is updated, new card token will be provided, so please make sure to update card token.&quot;</li>
+</ul></div><footer class="row docusaurus-mt-lg"></footer></div></div></article><div class="blogunderLine"></div><article><div class="row"><div class="col col--2 border-r-2"><div class="container_EmI_ margin-vert--md"><time datetime="2022-09-26T00:00:00.000Z" itemprop="datePublished">September 26, 2022</time></div><footer class="row docusaurus-mt-lg"><div class="col"><b>Tags:</b><ul class="tags_jXut padding--none margin-left--sm"><li class="tag_QGVx"><a class="tag_zVej tagRegular_sFm0" href="/release-note-blog/tags/seller-portal/">Seller Portal</a></li></ul></div></footer></div><div class="col col--7"><header><h2 class="title_xvU1"><a href="/release-note-blog/2022/09/26/sellerportal/">Seller Portal - v1.9.0</a></h2><div class="container_iJTo margin-vert--md"></div></header><div class="markdown" itemprop="articleBody"><div class="productVersion"><p>Seller Portal - v1.9.0</p></div>
+<br>
+<ul>
+<li>Add Audit Log</li>
+<li>Fix error when searching with input in closed drawer</li>
+<li>Minor UI fixes</li>
+</ul></div><footer class="row docusaurus-mt-lg"></footer></div></div></article><div class="blogunderLine"></div><article><div class="row"><div class="col col--2 border-r-2"><div class="container_EmI_ margin-vert--md"><time datetime="2022-08-31T00:00:00.000Z" itemprop="datePublished">August 31, 2022</time></div><footer class="row docusaurus-mt-lg"><div class="col"><b>Tags:</b><ul class="tags_jXut padding--none margin-left--sm"><li class="tag_QGVx"><a class="tag_zVej tagRegular_sFm0" href="/release-note-blog/tags/seller-portal/">Seller Portal</a></li></ul></div></footer></div><div class="col col--7"><header><h2 class="title_xvU1"><a href="/release-note-blog/2022/08/31/sellerportal/">Seller Portal - v1.8.4</a></h2><div class="container_iJTo margin-vert--md"></div></header><div class="markdown" itemprop="articleBody"><div class="productVersion"><p>Seller Portal - v1.8.4</p></div>
+<br>
+<ul>
+<li>Show &quot;Has Security Code&quot; field in card payment details</li>
+<li>Separate Reset Password and Account Creation pages for clarity</li>
+<li>In modify payment function, allow Grant Points to be changed to 0</li>
+<li>Enable users to see data about Remittance notification</li>
+</ul></div><footer class="row docusaurus-mt-lg"></footer></div></div></article><div class="blogunderLine"></div><article><div class="row"><div class="col col--2 border-r-2"><div class="container_EmI_ margin-vert--md"><time datetime="2022-08-29T00:00:00.000Z" itemprop="datePublished">August 29, 2022</time></div><footer class="row docusaurus-mt-lg"><div class="col"><b>Tags:</b><ul class="tags_jXut padding--none margin-left--sm"><li class="tag_QGVx"><a class="tag_zVej tagRegular_sFm0" href="/release-note-blog/tags/bulk-capture/">Bulk Capture</a></li></ul></div></footer></div><div class="col col--7"><header><h2 class="title_xvU1"><a href="/release-note-blog/2022/08/29/bulkcapture/">Bulk Capture - v1.8.3</a></h2><div class="container_iJTo margin-vert--md"></div></header><div class="markdown" itemprop="articleBody"><div class="productVersion"><p>Bulk Capture - v1.8.3</p></div>
+<br>
+<ul>
+<li>Retry capture/cancel if the error type is SSLException or invalid_point</li>
+</ul></div><footer class="row docusaurus-mt-lg"></footer></div></div></article><div class="blogunderLine"></div><article><div class="row"><div class="col col--2 border-r-2"><div class="container_EmI_ margin-vert--md"><time datetime="2022-06-13T00:00:00.000Z" itemprop="datePublished">June 13, 2022</time></div><footer class="row docusaurus-mt-lg"><div class="col"><b>Tags:</b><ul class="tags_jXut padding--none margin-left--sm"><li class="tag_QGVx"><a class="tag_zVej tagRegular_sFm0" href="/release-note-blog/tags/seller-portal/">Seller Portal</a></li></ul></div></footer></div><div class="col col--7"><header><h2 class="title_xvU1"><a href="/release-note-blog/2022/06/13/sellerportal/">Seller Portal - v1.8.3</a></h2><div class="container_iJTo margin-vert--md"></div></header><div class="markdown" itemprop="articleBody"><div class="productVersion"><p>Seller Portal - v1.8.3</p></div>
+<br>
+<ul>
+<li>Add Rakuten Card USA as a PSP</li>
+<li>Reword &quot;PSP&quot; wording to &quot;Business&quot;</li>
+</ul></div><footer class="row docusaurus-mt-lg"></footer></div></div></article><div class="blogunderLine"></div><article><div class="row"><div class="col col--2 border-r-2"><div class="container_EmI_ margin-vert--md"><time datetime="2022-06-01T00:00:00.000Z" itemprop="datePublished">June 1, 2022</time></div><footer class="row docusaurus-mt-lg"><div class="col"><b>Tags:</b><ul class="tags_jXut padding--none margin-left--sm"><li class="tag_QGVx"><a class="tag_zVej tagRegular_sFm0" href="/release-note-blog/tags/pay-vault-js/">PayVault.js</a></li></ul></div></footer></div><div class="col col--7"><header><h2 class="title_xvU1"><a href="/release-note-blog/2022/06/01/">V7.4 payvault.js</a></h2><div class="container_iJTo margin-vert--md"></div></header><div class="markdown" itemprop="articleBody"><div class="productVersion"><p>PayVault.js - v7.4</p></div>
+<h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="update">Update<a href="#update" class="hash-link" aria-label="Direct link to Update" title="Direct link to Update">​</a></h3>
+<ul>
+<li>
+<p>Add card icon and cvv icon</p>
+<ul>
+<li>support Visa, MasterCard, Diners Club, Discover, JCB, American Express</li>
+</ul>
+</li>
+<li>
+<p>Change API to Add V4</p>
+<ul>
+<li>This new API won&#x27;t require any extra configuration to set it up, but if you request an extra configuration about the country code you should create a special ticket to make the configurations,  click here for more information <a href="/products/api-reference/payvault/#tag/Credit-Card-Rakuten-Card/paths/~1Credit%20Card~1Card-V4-Add/post">Information Add V4</a></li>
+</ul>
+</li>
+</ul>
+<h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="fix">Fix<a href="#fix" class="hash-link" aria-label="Direct link to Fix" title="Direct link to Fix">​</a></h3>
+<ul>
+<li>Fix the bug which can&#x27;t use rem</li>
+</ul>
+<h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="new-feature">New Feature<a href="#new-feature" class="hash-link" aria-label="Direct link to New Feature" title="Direct link to New Feature">​</a></h3>
+<ul>
+<li>Logging System<!-- -->
+<ul>
+<li>This new feature will help us to keep error log from the client side so will be more easy find out issues with PayVault Js</li>
+</ul>
+</li>
+</ul></div><footer class="row docusaurus-mt-lg"></footer></div></div></article><div class="blogunderLine"></div><article><div class="row"><div class="col col--2 border-r-2"><div class="container_EmI_ margin-vert--md"><time datetime="2022-05-30T00:00:00.000Z" itemprop="datePublished">May 30, 2022</time></div><footer class="row docusaurus-mt-lg"><div class="col"><b>Tags:</b><ul class="tags_jXut padding--none margin-left--sm"><li class="tag_QGVx"><a class="tag_zVej tagRegular_sFm0" href="/release-note-blog/tags/bulk-capture/">Bulk Capture</a></li></ul></div></footer></div><div class="col col--7"><header><h2 class="title_xvU1"><a href="/release-note-blog/2022/05/30/bulkcapture/">Bulk Capture - v1.8.2</a></h2><div class="container_iJTo margin-vert--md"></div></header><div class="markdown" itemprop="articleBody"><div class="productVersion"><p>Bulk Capture - v1.8.2</p></div>
+<br>
+<ul>
+<li>Check malformed records in Request file and PayVault file<!-- -->
+<ul>
+<li>If they are detected in Request file, the batch writes invalid_request_parameter error response into Response file. The batch continue running.</li>
+<li>If they are detected in PayVault file, the batch stops immediately. Since PayVault file is loaded prior to Request file, no records in Request file is processed in this case.</li>
+</ul>
+</li>
+</ul></div><footer class="row docusaurus-mt-lg"></footer></div></div></article><div class="blogunderLine"></div><article><div class="row"><div class="col col--2 border-r-2"><div class="container_EmI_ margin-vert--md"><time datetime="2022-04-01T00:00:00.000Z" itemprop="datePublished">April 1, 2022</time></div><footer class="row docusaurus-mt-lg"><div class="col"><b>Tags:</b><ul class="tags_jXut padding--none margin-left--sm"><li class="tag_QGVx"><a class="tag_zVej tagRegular_sFm0" href="/release-note-blog/tags/seller-portal/">Seller Portal</a></li></ul></div></footer></div><div class="col col--7"><header><h2 class="title_xvU1"><a href="/release-note-blog/2022/04/01/sellerportal/">Seller Portal - v1.8.2</a></h2><div class="container_iJTo margin-vert--md"></div></header><div class="markdown" itemprop="articleBody"><div class="productVersion"><p>Seller Portal - v1.8.2</p></div>
+<br>
+<ul>
+<li>Upgrade framework version to fix a security issue</li>
+</ul></div><footer class="row docusaurus-mt-lg"></footer></div></div></article><div class="blogunderLine"></div><article><div class="row"><div class="col col--2 border-r-2"><div class="container_EmI_ margin-vert--md"><time datetime="2022-03-23T00:00:00.000Z" itemprop="datePublished">March 23, 2022</time></div><footer class="row docusaurus-mt-lg"><div class="col"><b>Tags:</b><ul class="tags_jXut padding--none margin-left--sm"><li class="tag_QGVx"><a class="tag_zVej tagRegular_sFm0" href="/release-note-blog/tags/seller-portal/">Seller Portal</a></li></ul></div></footer></div><div class="col col--7"><header><h2 class="title_xvU1"><a href="/release-note-blog/2022/03/23/sellerportal/">Seller Portal - v1.8.1</a></h2><div class="container_iJTo margin-vert--md"></div></header><div class="markdown" itemprop="articleBody"><div class="productVersion"><p>Seller Portal - v1.8.1</p></div>
+<br>
+<h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="improvement">Improvement<a href="#improvement" class="hash-link" aria-label="Direct link to Improvement" title="Direct link to Improvement">​</a></h3>
+<ul>
+<li>Add modal and link to download a template file when uploading Bulk Operation request file</li>
+<li>Add Japanese translation to Bulk Edit action dropdown</li>
+<li>Change &quot;Last 30 Days&quot; search interval to &quot;Last 1 month&quot; to avoid unexpected errors</li>
+<li>Modify UI/UX according to ReX<!-- -->
+<ul>
+<li>Add link to the SSO login page on the login page</li>
+<li>Hide the paging if there is only one page of search results</li>
+<li>Change &quot;Member ID&quot; to &quot;Rakuten ID&quot;</li>
+<li>Change some Japanese descriptions<!-- -->
+<ul>
+<li>[Login page] サインイン -&gt; ログイン</li>
+<li>[After login page Header] サインアウト -&gt; ログアウト</li>
+<li>[After login page Header] ユーザープロファイル -&gt; ユーザー情報</li>
+<li>[Modify modal] 金額変更しますか？ -&gt; 変更後の決済金額を入力してください</li>
+<li>Other small improvements</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="bug-fix">Bug fix<a href="#bug-fix" class="hash-link" aria-label="Direct link to Bug fix" title="Direct link to Bug fix">​</a></h3>
+<ul>
+<li>Display grant points properly in payment details screen when only grant points are modified</li>
+</ul></div><footer class="row docusaurus-mt-lg"></footer></div></div></article><div class="blogunderLine"></div><article><div class="row"><div class="col col--2 border-r-2"><div class="container_EmI_ margin-vert--md"><time datetime="2022-03-02T00:00:00.000Z" itemprop="datePublished">March 2, 2022</time></div><footer class="row docusaurus-mt-lg"><div class="col"><b>Tags:</b><ul class="tags_jXut padding--none margin-left--sm"><li class="tag_QGVx"><a class="tag_zVej tagRegular_sFm0" href="/release-note-blog/tags/bulk-capture/">Bulk Capture</a></li></ul></div></footer></div><div class="col col--7"><header><h2 class="title_xvU1"><a href="/release-note-blog/2022/03/02/bulkcapture/">Bulk Capture - v1.8.1</a></h2><div class="container_iJTo margin-vert--md"></div></header><div class="markdown" itemprop="articleBody"><div class="productVersion"><p>Bulk Capture - v1.8.1</p></div>
+<br>
+<ul>
+<li>Internal improvement<!-- -->
+<ul>
+<li>Shuffle the records in the request file before processing to reduce processing time</li>
+</ul>
+</li>
+</ul></div><footer class="row docusaurus-mt-lg"></footer></div></div></article><div class="blogunderLine"></div><article><div class="row"><div class="col col--2 border-r-2"><div class="container_EmI_ margin-vert--md"><time datetime="2022-01-17T00:00:00.000Z" itemprop="datePublished">January 17, 2022</time></div><footer class="row docusaurus-mt-lg"><div class="col"><b>Tags:</b><ul class="tags_jXut padding--none margin-left--sm"><li class="tag_QGVx"><a class="tag_zVej tagRegular_sFm0" href="/release-note-blog/tags/bulk-capture/">Bulk Capture</a></li></ul></div></footer></div><div class="col col--7"><header><h2 class="title_xvU1"><a href="/release-note-blog/2022/01/17/bulkcapture/">Bulk Capture - v1.8.0</a></h2><div class="container_iJTo margin-vert--md"></div></header><div class="markdown" itemprop="articleBody"><div class="productVersion"><p>Bulk Capture - v1.8.0</p></div>
+<br>
+<ul>
+<li>Add payment ID to capture request files</li>
+<li>Support multiple Sub Service IDs in one request file</li>
+<li>Add Sub Service ID to capture files</li>
+<li>Fix a bug that specifying cardHolderName causes validation error</li>
+<li>Fix a bug of handling invalid currencyCode</li>
+<li>Bug fixes and improvements</li>
+</ul></div><footer class="row docusaurus-mt-lg"></footer></div></div></article><div class="blogunderLine"></div><article><div class="row"><div class="col col--2 border-r-2"><div class="container_EmI_ margin-vert--md"><time datetime="2022-01-12T00:00:00.000Z" itemprop="datePublished">January 12, 2022</time></div><footer class="row docusaurus-mt-lg"><div class="col"><b>Tags:</b><ul class="tags_jXut padding--none margin-left--sm"><li class="tag_QGVx"><a class="tag_zVej tagRegular_sFm0" href="/release-note-blog/tags/pay-vault-js/">PayVault.js</a></li></ul></div></footer></div><div class="col col--7"><header><h2 class="title_xvU1"><a href="/release-note-blog/2022/01/12/">V7.3 payvault.js</a></h2><div class="container_iJTo margin-vert--md"></div></header><div class="markdown" itemprop="articleBody"><div class="productVersion"><p>PayVault.js - v7.3</p></div>
+<h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="fix">Fix<a href="#fix" class="hash-link" aria-label="Direct link to Fix" title="Direct link to Fix">​</a></h3>
+<ul>
+<li>
+<p>fix userAgent logic for custom userAgent in iOS device</p>
+<ul>
+<li>Regarding to userAgent, it&#x27;s used by payvault.js to work properly on certain devices.<br>
+If you need to add custom data, please always attach at the end.</li>
+</ul>
+</li>
+</ul>
+<h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="improved">Improved<a href="#improved" class="hash-link" aria-label="Direct link to Improved" title="Direct link to Improved">​</a></h3>
+<ul>
+<li>Cypress test improvements</li>
+</ul></div><footer class="row docusaurus-mt-lg"></footer></div></div></article><div class="blogunderLine"></div><article><div class="row"><div class="col col--2 border-r-2"><div class="container_EmI_ margin-vert--md"><time datetime="2021-12-25T00:00:00.000Z" itemprop="datePublished">December 25, 2021</time></div><footer class="row docusaurus-mt-lg"><div class="col"><b>Tags:</b><ul class="tags_jXut padding--none margin-left--sm"><li class="tag_QGVx"><a class="tag_zVej tagRegular_sFm0" href="/release-note-blog/tags/pay-vault-js/">PayVault.js</a></li></ul></div></footer></div><div class="col col--7"><header><h2 class="title_xvU1"><a href="/release-note-blog/2021/12/25/">V7.0 payvault.js</a></h2><div class="container_iJTo margin-vert--md"></div></header><div class="markdown" itemprop="articleBody"><div class="productVersion"><p>PayVault.js - v7.0</p></div>
+<h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="update">Update<a href="#update" class="hash-link" aria-label="Direct link to Update" title="Direct link to Update">​</a></h3>
+<ul>
+<li>update CORS and env configuration</li>
+</ul></div><footer class="row docusaurus-mt-lg"></footer></div></div></article><div class="blogunderLine"></div><article><div class="row"><div class="col col--2 border-r-2"><div class="container_EmI_ margin-vert--md"><time datetime="2021-12-14T00:00:00.000Z" itemprop="datePublished">December 14, 2021</time></div><footer class="row docusaurus-mt-lg"><div class="col"><b>Tags:</b><ul class="tags_jXut padding--none margin-left--sm"><li class="tag_QGVx"><a class="tag_zVej tagRegular_sFm0" href="/release-note-blog/tags/seller-portal/">Seller Portal</a></li></ul></div></footer></div><div class="col col--7"><header><h2 class="title_xvU1"><a href="/release-note-blog/2021/12/14/sellerportal/">Seller Portal - v1.8.0</a></h2><div class="container_iJTo margin-vert--md"></div></header><div class="markdown" itemprop="articleBody"><div class="productVersion"><p>Seller Portal - v1.8.0</p></div>
+<br>
+<ul>
+<li>Add bulk operation function for payments.<!-- -->
+<ul>
+<li>Payments can be selected or request files can be uploaded and processed in a bulk.</li>
+<li>Bulk operation history can be browsed.</li>
+</ul>
+</li>
+<li>Add 3D Secure 2.0 authentications result check page.</li>
+<li>Add Admin (Service / User) as a new permission.<!-- -->
+<ul>
+<li>Admin (Service / User) has most permissions<!-- -->
+<ul>
+<li>Can grant service admins / user admins / other permissions to other people</li>
+<li>Can manage API Keys</li>
+<li>Can manage service configurations</li>
+</ul>
+</li>
+<li>Admin (User only) is the same as previous version<!-- -->
+<ul>
+<li>Can grant user admins / other permissions to other people</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Change URL of JS SDK for Rakuten Pay Europe.</li>
+<li>Support modify operation for Global Point.</li>
+</ul></div><footer class="row docusaurus-mt-lg"></footer></div></div></article><div class="blogunderLine"></div><article><div class="row"><div class="col col--2 border-r-2"><div class="container_EmI_ margin-vert--md"><time datetime="2021-11-15T00:00:00.000Z" itemprop="datePublished">November 15, 2021</time></div><footer class="row docusaurus-mt-lg"><div class="col"><b>Tags:</b><ul class="tags_jXut padding--none margin-left--sm"><li class="tag_QGVx"><a class="tag_zVej tagRegular_sFm0" href="/release-note-blog/tags/seller-portal/">Seller Portal</a></li></ul></div></footer></div><div class="col col--7"><header><h2 class="title_xvU1"><a href="/release-note-blog/2021/11/15/sellerportal/">Seller Portal - v1.7.0</a></h2><div class="container_iJTo margin-vert--md"></div></header><div class="markdown" itemprop="articleBody"><div class="productVersion"><p>Seller Portal - v1.7.0</p></div>
+<br>
+<ul>
+<li>Conform to the latest ReX design guidelines.</li>
+<li>Remove transaction ID of agency that is shown in Payment Details page.</li>
+<li>Display the reason why the Modify button is disabled.</li>
+<li>Fix error messages displayed in add/edit PSP user page.</li>
+</ul></div><footer class="row docusaurus-mt-lg"></footer></div></div></article><div class="blogunderLine"></div><article><div class="row"><div class="col col--2 border-r-2"><div class="container_EmI_ margin-vert--md"><time datetime="2021-11-01T00:00:00.000Z" itemprop="datePublished">November 1, 2021</time></div><footer class="row docusaurus-mt-lg"><div class="col"><b>Tags:</b><ul class="tags_jXut padding--none margin-left--sm"><li class="tag_QGVx"><a class="tag_zVej tagRegular_sFm0" href="/release-note-blog/tags/bulk-capture/">Bulk Capture</a></li></ul></div></footer></div><div class="col col--7"><header><h2 class="title_xvU1"><a href="/release-note-blog/2021/11/01/bulkcapture/">Bulk Capture - v1.7.0</a></h2><div class="container_iJTo margin-vert--md"></div></header><div class="markdown" itemprop="articleBody"><div class="productVersion"><p>Bulk Capture - v1.7.0</p></div>
+<br>
+<ul>
+<li>Support CancelOrRefund operation</li>
+<li>Bug fixes and improvements</li>
+</ul></div><footer class="row docusaurus-mt-lg"></footer></div></div></article><div class="blogunderLine"></div><article><div class="row"><div class="col col--2 border-r-2"><div class="container_EmI_ margin-vert--md"><time datetime="2021-09-21T00:00:00.000Z" itemprop="datePublished">September 21, 2021</time></div><footer class="row docusaurus-mt-lg"><div class="col"><b>Tags:</b><ul class="tags_jXut padding--none margin-left--sm"><li class="tag_QGVx"><a class="tag_zVej tagRegular_sFm0" href="/release-note-blog/tags/bulk-capture/">Bulk Capture</a></li></ul></div></footer></div><div class="col col--7"><header><h2 class="title_xvU1"><a href="/release-note-blog/2021/09/21/bulkcapture/">Bulk Capture - v1.6.3</a></h2><div class="container_iJTo margin-vert--md"></div></header><div class="markdown" itemprop="articleBody"><div class="productVersion"><p>Bulk Capture - v1.6.3</p></div>
+<br>
+<ul>
+<li>Support multiple Card Updater response files<!-- -->
+<ul>
+<li>Same month as request file is used first, if not found, previous month is used</li>
+</ul>
+</li>
+<li>Add saleDate in request file</li>
+<li>Change naming rule of capture file sent to PayVault<!-- -->
+<ul>
+<li>(serviceId)_(timestamp)<em>capture.json -&gt; (serviceId)</em>(timestamp)_sale_capture.json</li>
+</ul>
+</li>
+<li>Bug fixes and improvements</li>
+</ul></div><footer class="row docusaurus-mt-lg"></footer></div></div></article><div class="blogunderLine"></div><article><div class="row"><div class="col col--2 border-r-2"><div class="container_EmI_ margin-vert--md"><time datetime="2021-09-06T00:00:00.000Z" itemprop="datePublished">September 6, 2021</time></div><footer class="row docusaurus-mt-lg"><div class="col"><b>Tags:</b><ul class="tags_jXut padding--none margin-left--sm"><li class="tag_QGVx"><a class="tag_zVej tagRegular_sFm0" href="/release-note-blog/tags/seller-portal/">Seller Portal</a></li></ul></div></footer></div><div class="col col--7"><header><h2 class="title_xvU1"><a href="/release-note-blog/2021/09/06/sellerportal/">Seller Portal - v1.6.5</a></h2><div class="container_iJTo margin-vert--md"></div></header><div class="markdown" itemprop="articleBody"><div class="productVersion"><p>Seller Portal - v1.6.5</p></div>
+<br>
+<ul>
+<li>Enable pull-down selection Sub Service ID when QR code is generated</li>
+</ul></div><footer class="row docusaurus-mt-lg"></footer></div></div></article><div class="blogunderLine"></div><article><div class="row"><div class="col col--2 border-r-2"><div class="container_EmI_ margin-vert--md"><time datetime="2021-06-24T00:00:00.000Z" itemprop="datePublished">June 24, 2021</time></div><footer class="row docusaurus-mt-lg"><div class="col"><b>Tags:</b><ul class="tags_jXut padding--none margin-left--sm"><li class="tag_QGVx"><a class="tag_zVej tagRegular_sFm0" href="/release-note-blog/tags/seller-portal/">Seller Portal</a></li></ul></div></footer></div><div class="col col--7"><header><h2 class="title_xvU1"><a href="/release-note-blog/2021/06/24/sellerportal/">Seller Portal - v1.6.4</a></h2><div class="container_iJTo margin-vert--md"></div></header><div class="markdown" itemprop="articleBody"><div class="productVersion"><p>Seller Portal - v1.6.4</p></div>
+<br>
+<ul>
+<li>Implemented AI Shield Challenger</li>
+<li>Output keys on Seller Portal</li>
+<li>Add new search criteria (BIN, Unique ID etc.)</li>
+<li>Show reference on Payment Details page</li>
+<li>Enable internal users to add/delete their own accounts</li>
+<li>Support modify operation for RS2</li>
+<li>Redesign search criteria aria</li>
+</ul></div><footer class="row docusaurus-mt-lg"></footer></div></div></article><div class="blogunderLine"></div></div></main></div></div></div><footer class="footer"><div class="container container-fluid"><div class="row footer__links"><div class="col footer__col"><div class="footer__title">Rakuten Group</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://privacy.rakuten.co.jp/" target="_blank" rel="noopener noreferrer" class="footer__link-item">Privacy Policy<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li class="footer__item"><a class="footer__link-item" href="/support/terms-of-use/">Terms of Use</a></li></ul></div></div><div class="footer__bottom text--center"><div class="footer__copyright">© 2024 Rakuten Group Inc.</div></div></div></footer></div>
+</body>
+</html>
